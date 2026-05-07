@@ -1,0 +1,100 @@
+{"id": "seed_001", "text": "跟我走", "intent": "FOLLOW", "slots": []}
+{"id": "seed_002", "text": "跟上", "intent": "FOLLOW", "slots": []}
+{"id": "seed_003", "text": "别掉队", "intent": "FOLLOW", "slots": []}
+{"id": "seed_004", "text": "过来这边", "intent": "FOLLOW", "slots": [{"start": 2, "end": 4, "label": "LOCATION"}]}
+{"id": "seed_005", "text": "过来", "intent": "FOLLOW", "slots": []}
+{"id": "seed_006", "text": "我们走", "intent": "FOLLOW", "slots": []}
+{"id": "seed_007", "text": "跟着我", "intent": "FOLLOW", "slots": []}
+{"id": "seed_008", "text": "走啊", "intent": "FOLLOW", "slots": []}
+{"id": "seed_009", "text": "靠近我", "intent": "FOLLOW", "slots": []}
+{"id": "seed_010", "text": "跟紧点", "intent": "FOLLOW", "slots": []}
+{"id": "seed_011", "text": "和我一起走", "intent": "FOLLOW", "slots": []}
+{"id": "seed_012", "text": "守住这里", "intent": "HOLD_POSITION", "slots": [{"start": 2, "end": 4, "label": "LOCATION"}]}
+{"id": "seed_013", "text": "守住门口", "intent": "HOLD_POSITION", "slots": [{"start": 2, "end": 4, "label": "LOCATION"}]}
+{"id": "seed_014", "text": "在原地等", "intent": "HOLD_POSITION", "slots": [{"start": 1, "end": 3, "label": "LOCATION"}]}
+{"id": "seed_015", "text": "别动", "intent": "HOLD_POSITION", "slots": []}
+{"id": "seed_016", "text": "停在这里", "intent": "HOLD_POSITION", "slots": [{"start": 2, "end": 4, "label": "LOCATION"}]}
+{"id": "seed_017", "text": "守住这个掩体", "intent": "HOLD_POSITION", "slots": [{"start": 2, "end": 6, "label": "LOCATION"}]}
+{"id": "seed_018", "text": "在楼梯口蹲点", "intent": "HOLD_POSITION", "slots": [{"start": 1, "end": 4, "label": "LOCATION"}]}
+{"id": "seed_019", "text": "原地待命", "intent": "HOLD_POSITION", "slots": []}
+{"id": "seed_020", "text": "保持位置", "intent": "HOLD_POSITION", "slots": []}
+{"id": "seed_021", "text": "守在这里别走", "intent": "HOLD_POSITION", "slots": [{"start": 2, "end": 4, "label": "LOCATION"}]}
+{"id": "seed_022", "text": "守好门", "intent": "HOLD_POSITION", "slots": [{"start": 2, "end": 3, "label": "LOCATION"}]}
+{"id": "seed_023", "text": "打那只机器狗", "intent": "ATTACK_TARGET", "slots": [{"start": 1, "end": 6, "label": "TARGET"}]}
+{"id": "seed_024", "text": "干掉那个无人机", "intent": "ATTACK_TARGET", "slots": [{"start": 2, "end": 7, "label": "TARGET"}]}
+{"id": "seed_025", "text": "火力集中前面那个", "intent": "ATTACK_TARGET", "slots": [{"start": 4, "end": 8, "label": "TARGET"}]}
+{"id": "seed_026", "text": "射那个红色的", "intent": "ATTACK_TARGET", "slots": [{"start": 1, "end": 6, "label": "TARGET"}]}
+{"id": "seed_027", "text": "先打左边的兵", "intent": "ATTACK_TARGET", "slots": [{"start": 2, "end": 6, "label": "TARGET"}]}
+{"id": "seed_028", "text": "打它", "intent": "ATTACK_TARGET", "slots": [{"start": 1, "end": 2, "label": "TARGET"}]}
+{"id": "seed_029", "text": "杀了那只狗", "intent": "ATTACK_TARGET", "slots": [{"start": 2, "end": 5, "label": "TARGET"}]}
+{"id": "seed_030", "text": "开火打那个", "intent": "ATTACK_TARGET", "slots": [{"start": 3, "end": 5, "label": "TARGET"}]}
+{"id": "seed_031", "text": "瞄准右上的炮塔", "intent": "ATTACK_TARGET", "slots": [{"start": 2, "end": 7, "label": "TARGET"}]}
+{"id": "seed_032", "text": "把那家伙干掉", "intent": "ATTACK_TARGET", "slots": [{"start": 1, "end": 4, "label": "TARGET"}]}
+{"id": "seed_033", "text": "攻击目标", "intent": "ATTACK_TARGET", "slots": [{"start": 2, "end": 4, "label": "TARGET"}]}
+{"id": "seed_034", "text": "压制一下", "intent": "SUPPRESS", "slots": []}
+{"id": "seed_035", "text": "帮我顶住", "intent": "SUPPRESS", "slots": []}
+{"id": "seed_036", "text": "火力压制", "intent": "SUPPRESS", "slots": []}
+{"id": "seed_037", "text": "压制那边", "intent": "SUPPRESS", "slots": [{"start": 2, "end": 4, "label": "LOCATION"}]}
+{"id": "seed_038", "text": "掩护我", "intent": "SUPPRESS", "slots": []}
+{"id": "seed_039", "text": "顶一下", "intent": "SUPPRESS", "slots": []}
+{"id": "seed_040", "text": "扫射压制", "intent": "SUPPRESS", "slots": []}
+{"id": "seed_041", "text": "牵制他们", "intent": "SUPPRESS", "slots": [{"start": 2, "end": 4, "label": "TARGET"}]}
+{"id": "seed_042", "text": "拖住敌人", "intent": "SUPPRESS", "slots": [{"start": 2, "end": 4, "label": "TARGET"}]}
+{"id": "seed_043", "text": "用机枪压住", "intent": "SUPPRESS", "slots": []}
+{"id": "seed_044", "text": "对着前方扫射", "intent": "SUPPRESS", "slots": [{"start": 2, "end": 4, "label": "LOCATION"}]}
+{"id": "seed_045", "text": "撤", "intent": "RETREAT", "slots": []}
+{"id": "seed_046", "text": "后撤", "intent": "RETREAT", "slots": []}
+{"id": "seed_047", "text": "撤回来", "intent": "RETREAT", "slots": []}
+{"id": "seed_048", "text": "回来", "intent": "RETREAT", "slots": []}
+{"id": "seed_049", "text": "拉回", "intent": "RETREAT", "slots": []}
+{"id": "seed_050", "text": "撤退", "intent": "RETREAT", "slots": []}
+{"id": "seed_051", "text": "回撤到掩体", "intent": "RETREAT", "slots": [{"start": 3, "end": 5, "label": "LOCATION"}]}
+{"id": "seed_052", "text": "退后", "intent": "RETREAT", "slots": []}
+{"id": "seed_053", "text": "跟我撤", "intent": "RETREAT", "slots": []}
+{"id": "seed_054", "text": "撤到我这里", "intent": "RETREAT", "slots": [{"start": 2, "end": 5, "label": "LOCATION"}]}
+{"id": "seed_055", "text": "快撤", "intent": "RETREAT", "slots": []}
+{"id": "seed_056", "text": "扫一下周围", "intent": "SCAN", "slots": [{"start": 3, "end": 5, "label": "LOCATION"}]}
+{"id": "seed_057", "text": "看看右边", "intent": "SCAN", "slots": [{"start": 2, "end": 4, "label": "LOCATION"}]}
+{"id": "seed_058", "text": "侦查一下", "intent": "SCAN", "slots": []}
+{"id": "seed_059", "text": "扫描区域", "intent": "SCAN", "slots": [{"start": 2, "end": 4, "label": "LOCATION"}]}
+{"id": "seed_060", "text": "看看那边", "intent": "SCAN", "slots": [{"start": 2, "end": 4, "label": "LOCATION"}]}
+{"id": "seed_061", "text": "搜索敌人", "intent": "SCAN", "slots": [{"start": 2, "end": 4, "label": "TARGET"}]}
+{"id": "seed_062", "text": "查看左侧", "intent": "SCAN", "slots": [{"start": 2, "end": 4, "label": "LOCATION"}]}
+{"id": "seed_063", "text": "扫一眼后面", "intent": "SCAN", "slots": [{"start": 3, "end": 5, "label": "LOCATION"}]}
+{"id": "seed_064", "text": "确认安全", "intent": "SCAN", "slots": []}
+{"id": "seed_065", "text": "看看楼上", "intent": "SCAN", "slots": [{"start": 2, "end": 4, "label": "LOCATION"}]}
+{"id": "seed_066", "text": "侦查前方", "intent": "SCAN", "slots": [{"start": 2, "end": 4, "label": "LOCATION"}]}
+{"id": "seed_067", "text": "开那扇门", "intent": "INTERACT", "slots": [{"start": 1, "end": 4, "label": "TARGET"}]}
+{"id": "seed_068", "text": "激活终端", "intent": "INTERACT", "slots": [{"start": 2, "end": 4, "label": "TARGET"}]}
+{"id": "seed_069", "text": "拿那个补给", "intent": "INTERACT", "slots": [{"start": 1, "end": 5, "label": "TARGET"}]}
+{"id": "seed_070", "text": "去开门", "intent": "INTERACT", "slots": [{"start": 2, "end": 3, "label": "TARGET"}]}
+{"id": "seed_071", "text": "破解那个", "intent": "INTERACT", "slots": [{"start": 2, "end": 4, "label": "TARGET"}]}
+{"id": "seed_072", "text": "打开箱子", "intent": "INTERACT", "slots": [{"start": 2, "end": 4, "label": "TARGET"}]}
+{"id": "seed_073", "text": "捡起来", "intent": "INTERACT", "slots": []}
+{"id": "seed_074", "text": "去拿弹药", "intent": "INTERACT", "slots": [{"start": 2, "end": 4, "label": "TARGET"}]}
+{"id": "seed_075", "text": "操作终端", "intent": "INTERACT", "slots": [{"start": 2, "end": 4, "label": "TARGET"}]}
+{"id": "seed_076", "text": "接入电脑", "intent": "INTERACT", "slots": [{"start": 2, "end": 4, "label": "TARGET"}]}
+{"id": "seed_077", "text": "黑掉那个", "intent": "INTERACT", "slots": [{"start": 2, "end": 4, "label": "TARGET"}]}
+{"id": "seed_078", "text": "给我个药", "intent": "HEAL", "slots": []}
+{"id": "seed_079", "text": "帮我治疗", "intent": "HEAL", "slots": []}
+{"id": "seed_080", "text": "我血少了", "intent": "HEAL", "slots": []}
+{"id": "seed_081", "text": "治疗我", "intent": "HEAL", "slots": []}
+{"id": "seed_082", "text": "丢个回血", "intent": "HEAL", "slots": []}
+{"id": "seed_083", "text": "我快不行了", "intent": "HEAL", "slots": []}
+{"id": "seed_084", "text": "急救", "intent": "HEAL", "slots": []}
+{"id": "seed_085", "text": "回血", "intent": "HEAL", "slots": []}
+{"id": "seed_086", "text": "把医疗包给我", "intent": "HEAL", "slots": [{"start": 1, "end": 4, "label": "TARGET"}]}
+{"id": "seed_087", "text": "拉我一把", "intent": "HEAL", "slots": []}
+{"id": "seed_088", "text": "我中弹了", "intent": "HEAL", "slots": []}
+{"id": "seed_089", "text": "你好", "intent": "CHITCHAT", "slots": []}
+{"id": "seed_090", "text": "你叫什么", "intent": "CHITCHAT", "slots": []}
+{"id": "seed_091", "text": "累了吗", "intent": "CHITCHAT", "slots": []}
+{"id": "seed_092", "text": "你怎么看", "intent": "CHITCHAT", "slots": []}
+{"id": "seed_093", "text": "天气真好", "intent": "CHITCHAT", "slots": []}
+{"id": "seed_094", "text": "讲个笑话", "intent": "CHITCHAT", "slots": []}
+{"id": "seed_095", "text": "今天怎么样", "intent": "CHITCHAT", "slots": []}
+{"id": "seed_096", "text": "随便聊聊", "intent": "CHITCHAT", "slots": []}
+{"id": "seed_097", "text": "你喜欢什么音乐", "intent": "CHITCHAT", "slots": []}
+{"id": "seed_098", "text": "废土真冷啊", "intent": "CHITCHAT", "slots": []}
+{"id": "seed_099", "text": "无聊死了", "intent": "CHITCHAT", "slots": []}
+{"id": "seed_100", "text": "你是谁", "intent": "CHITCHAT", "slots": []}

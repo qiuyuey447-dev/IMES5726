@@ -1,0 +1,109 @@
+======================================================================
+SLOT ANNOTATION AUDIT REPORT
+======================================================================
+
+Total samples:          810
+Manual (seeds):         46
+Auto-regex matched:     255
+Auto-empty (no match):  153
+
+
+======================================================================
+60 RANDOM AUTO-REGEX SAMPLES (please scan for errors)
+======================================================================
+
+  [SCAN           ] 找找敌人位置                        ->  [敌人]=TARGET
+  [HOLD_POSITION  ] 这个掩体看好                        ->  [这个掩体]=LOCATION
+  [HOLD_POSITION  ] 楼梯口盯紧了                        ->  [楼梯口]=LOCATION
+  [SCAN           ] 后面瞅瞅                          ->  [后面]=LOCATION
+  [ATTACK_TARGET  ] 喂，搞定那无人机                      ->  [无人机]=TARGET
+  [HOLD_POSITION  ] 停这儿别动                         ->  [这儿]=LOCATION
+  [HOLD_POSITION  ] 别让掩体被占                        ->  [掩体]=LOCATION
+  [HOLD_POSITION  ] 别让门口漏人                        ->  [门口]=LOCATION
+  [SCAN           ] 前方扫一遍                         ->  [前方]=LOCATION
+  [HOLD_POSITION  ] 别让掩体丢了                        ->  [掩体]=LOCATION
+  [SCAN           ] 侦测前方区域                        ->  [前方区域]=LOCATION
+  [INTERACT       ] 启动终端                          ->  [终端]=TARGET
+  [INTERACT       ] 喂箱子开了                         ->  [箱子]=TARGET
+  [SUPPRESS       ] 往前面猛扫                         ->  [前面]=LOCATION
+  [HOLD_POSITION  ] 原地待着                          ->  [原地]=LOCATION
+  [SCAN           ] 诶，区域扫一遍                       ->  [区域]=LOCATION
+  [ATTACK_TARGET  ] 瞄准红色射                         ->  [红色]=TARGET
+  [HOLD_POSITION  ] 看住这个掩体                        ->  [这个掩体]=LOCATION
+  [HOLD_POSITION  ] 守着掩体别动                        ->  [掩体]=LOCATION
+  [HOLD_POSITION  ] 就待这儿                          ->  [这儿]=LOCATION
+  [HOLD_POSITION  ] 守住掩体                          ->  [掩体]=LOCATION
+  [HOLD_POSITION  ] 给我守住这儿                        ->  [这儿]=LOCATION
+  [SUPPRESS       ] 朝前面扫射                         ->  [前面]=LOCATION
+  [SCAN           ] 区域侦查一下                        ->  [区域]=LOCATION
+  [INTERACT       ] 终端开一下                         ->  [终端]=TARGET
+  [SUPPRESS       ] 前面给我压住                        ->  [前面]=LOCATION
+  [HOLD_POSITION  ] 守好这个掩体                        ->  [这个掩体]=LOCATION
+  [SCAN           ] 前方侦查一下                        ->  [前方]=LOCATION
+  [SCAN           ] 区域扫描一下                        ->  [区域]=LOCATION
+  [SCAN           ] 快瞄后面                          ->  [后面]=LOCATION
+  [INTERACT       ] 快，终端操作一下                      ->  [终端]=TARGET
+  [ATTACK_TARGET  ] 红色那个，打                        ->  [红色]=TARGET
+  [HOLD_POSITION  ] 这个掩体守住了                       ->  [这个掩体]=LOCATION
+  [ATTACK_TARGET  ] 集火那只机器狗                       ->  [那只机器狗]=TARGET
+  [SCAN           ] 扫一下这区域                        ->  [区域]=LOCATION
+  [ATTACK_TARGET  ] 无人机，快打掉它                      ->  [无人机]=TARGET
+  [INTERACT       ] 操作终端啊                         ->  [终端]=TARGET
+  [HOLD_POSITION  ] 楼梯口蹲好                         ->  [楼梯口]=LOCATION
+  [SCAN           ] 瞅瞅那边                          ->  [那边]=LOCATION
+  [INTERACT       ] 喂，终端操作了                       ->  [终端]=TARGET
+  [HOLD_POSITION  ] 在楼梯口蹲好                        ->  [楼梯口]=LOCATION
+  [SCAN           ] 喂，看后面                         ->  [后面]=LOCATION
+  [INTERACT       ] 喂，终端搞一下                       ->  [终端]=TARGET
+  [ATTACK_TARGET  ] 左边兵先打                         ->  [左边]=TARGET
+  [INTERACT       ] 喂，接电脑                         ->  [电脑]=TARGET
+  [HOLD_POSITION  ] 楼梯口守着                         ->  [楼梯口]=LOCATION
+  [INTERACT       ] 补给拿上                          ->  [补给]=TARGET
+  [SCAN           ] 看一眼那边                         ->  [那边]=LOCATION
+  [ATTACK_TARGET  ] 快干左边的兵                        ->  [左边的兵]=TARGET
+  [INTERACT       ] 去取弹药啊                         ->  [弹药]=TARGET
+  [INTERACT       ] 把补给收了                         ->  [补给]=TARGET
+  [ATTACK_TARGET  ] 快，把那个家伙做了                     ->  [那个家伙]=TARGET
+  [HOLD_POSITION  ] 守住那个掩体                        ->  [那个掩体]=LOCATION
+  [ATTACK_TARGET  ] 打那个目标                         ->  [目标]=TARGET
+  [ATTACK_TARGET  ] 先收拾左边的小兵                      ->  [左边的]=TARGET
+  [INTERACT       ] 开下箱子                          ->  [箱子]=TARGET
+  [ATTACK_TARGET  ] 射击那个目标                        ->  [目标]=TARGET
+  [HOLD_POSITION  ] 掩体交给你了                        ->  [掩体]=LOCATION
+  [SCAN           ] 侦查前方区域                        ->  [前方区域]=LOCATION
+  [SUPPRESS       ] 快点，向前扫射                       ->  [向前]=LOCATION
+
+======================================================================
+30 RANDOM AUTO-EMPTY SAMPLES (commands with no slot)
+======================================================================
+
+  [INTERACT       ] 把它捡上
+  [ATTACK_TARGET  ] 快瞄右上的炮塔
+  [SUPPRESS       ] 火力顶住
+  [HOLD_POSITION  ] 待在这别动
+  [INTERACT       ] 捡了呀
+  [SUPPRESS       ] 火力压制住
+  [SUPPRESS       ] 顶上
+  [ATTACK_TARGET  ] 做了那货
+  [HOLD_POSITION  ] 别乱动啊
+  [INTERACT       ] 捡起来
+  [SUPPRESS       ] 快掩护
+  [SUPPRESS       ] 快扫射压制
+  [INTERACT       ] 快开门
+  [SUPPRESS       ] 给我打掩护
+  [HOLD_POSITION  ] 就在这守着
+  [SUPPRESS       ] 压制射击
+  [SUPPRESS       ] 火力压住
+  [SCAN           ] 去探探
+  [SUPPRESS       ] 快架枪
+  [ATTACK_TARGET  ] 右上的炮塔，快打
+  [SUPPRESS       ] 帮我架住
+  [SUPPRESS       ] 往前打压制
+  [ATTACK_TARGET  ] 射那个红的呗
+  [SUPPRESS       ] 快，压制那个方向
+  [HOLD_POSITION  ] 别移动
+  [ATTACK_TARGET  ] 打那个
+  [INTERACT       ] 把它破了
+  [INTERACT       ] 捡起它
+  [INTERACT       ] 开一下门
+  [INTERACT       ] 捡走它

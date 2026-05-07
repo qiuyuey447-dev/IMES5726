@@ -1,0 +1,30 @@
+{"id": "slang_001", "text": "贴紧我", "intent": "FOLLOW", "slots": []}
+{"id": "slang_002", "text": "跟着别掉队", "intent": "FOLLOW", "slots": []}
+{"id": "slang_003", "text": "你蹭着我走", "intent": "FOLLOW", "slots": []}
+{"id": "slang_004", "text": "粘我后面就行", "intent": "FOLLOW", "slots": []}
+{"id": "slang_005", "text": "蹲住别动", "intent": "HOLD_POSITION", "slots": []}
+{"id": "slang_006", "text": "站岗这里", "intent": "HOLD_POSITION", "slots": []}
+{"id": "slang_007", "text": "钉在原地", "intent": "HOLD_POSITION", "slots": []}
+{"id": "slang_008", "text": "守住别走", "intent": "HOLD_POSITION", "slots": []}
+{"id": "slang_009", "text": "弄死那个机器人", "intent": "ATTACK_TARGET", "slots": [{"start": 2, "end": 7, "label": "TARGET"}]}
+{"id": "slang_010", "text": "把它整翻", "intent": "ATTACK_TARGET", "slots": []}
+{"id": "slang_011", "text": "突突那家伙", "intent": "ATTACK_TARGET", "slots": [{"start": 2, "end": 5, "label": "TARGET"}]}
+{"id": "slang_012", "text": "搞那个红色的", "intent": "ATTACK_TARGET", "slots": [{"start": 1, "end": 6, "label": "TARGET"}]}
+{"id": "slang_013", "text": "压一压那边", "intent": "SUPPRESS", "slots": []}
+{"id": "slang_014", "text": "扫射一下那个房间", "intent": "SUPPRESS", "slots": [{"start": 4, "end": 8, "label": "LOCATION"}]}
+{"id": "slang_015", "text": "对那扇窗压制火力", "intent": "SUPPRESS", "slots": [{"start": 1, "end": 4, "label": "LOCATION"}]}
+{"id": "slang_016", "text": "压住那条街", "intent": "SUPPRESS", "slots": [{"start": 2, "end": 5, "label": "LOCATION"}]}
+{"id": "slang_017", "text": "跑路", "intent": "RETREAT", "slots": []}
+{"id": "slang_018", "text": "撤撤撤", "intent": "RETREAT", "slots": []}
+{"id": "slang_019", "text": "闪人", "intent": "RETREAT", "slots": []}
+{"id": "slang_020", "text": "我们溜", "intent": "RETREAT", "slots": []}
+{"id": "slang_021", "text": "巡视一下", "intent": "SCAN", "slots": []}
+{"id": "slang_022", "text": "瞄一眼前方", "intent": "SCAN", "slots": []}
+{"id": "slang_023", "text": "检查那栋楼", "intent": "SCAN", "slots": [{"start": 2, "end": 5, "label": "LOCATION"}]}
+{"id": "slang_024", "text": "动动那个把手", "intent": "INTERACT", "slots": [{"start": 2, "end": 6, "label": "TARGET"}]}
+{"id": "slang_025", "text": "搞开那扇门", "intent": "INTERACT", "slots": [{"start": 2, "end": 5, "label": "TARGET"}]}
+{"id": "slang_026", "text": "捡那个东西", "intent": "INTERACT", "slots": [{"start": 1, "end": 5, "label": "TARGET"}]}
+{"id": "slang_027", "text": "回个血", "intent": "HEAL", "slots": []}
+{"id": "slang_028", "text": "我血不行了", "intent": "HEAL", "slots": []}
+{"id": "slang_029", "text": "你这家伙真有意思", "intent": "CHITCHAT", "slots": []}
+{"id": "slang_030", "text": "唠两句吧", "intent": "CHITCHAT", "slots": []}

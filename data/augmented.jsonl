@@ -1,0 +1,810 @@
+{"id": "seed_001", "text": "跟我走", "intent": "FOLLOW", "slots": []}
+{"id": "seed_002", "text": "跟上", "intent": "FOLLOW", "slots": []}
+{"id": "seed_003", "text": "别掉队", "intent": "FOLLOW", "slots": []}
+{"id": "seed_004", "text": "过来这边", "intent": "FOLLOW", "slots": [{"start": 2, "end": 4, "label": "LOCATION"}]}
+{"id": "seed_005", "text": "过来", "intent": "FOLLOW", "slots": []}
+{"id": "seed_006", "text": "我们走", "intent": "FOLLOW", "slots": []}
+{"id": "seed_007", "text": "跟着我", "intent": "FOLLOW", "slots": []}
+{"id": "seed_008", "text": "走啊", "intent": "FOLLOW", "slots": []}
+{"id": "seed_009", "text": "靠近我", "intent": "FOLLOW", "slots": []}
+{"id": "seed_010", "text": "跟紧点", "intent": "FOLLOW", "slots": []}
+{"id": "seed_011", "text": "和我一起走", "intent": "FOLLOW", "slots": []}
+{"id": "seed_012", "text": "守住这里", "intent": "HOLD_POSITION", "slots": [{"start": 2, "end": 4, "label": "LOCATION"}]}
+{"id": "seed_013", "text": "守住门口", "intent": "HOLD_POSITION", "slots": [{"start": 2, "end": 4, "label": "LOCATION"}]}
+{"id": "seed_014", "text": "在原地等", "intent": "HOLD_POSITION", "slots": [{"start": 1, "end": 3, "label": "LOCATION"}]}
+{"id": "seed_015", "text": "别动", "intent": "HOLD_POSITION", "slots": []}
+{"id": "seed_016", "text": "停在这里", "intent": "HOLD_POSITION", "slots": [{"start": 2, "end": 4, "label": "LOCATION"}]}
+{"id": "seed_017", "text": "守住这个掩体", "intent": "HOLD_POSITION", "slots": [{"start": 2, "end": 6, "label": "LOCATION"}]}
+{"id": "seed_018", "text": "在楼梯口蹲点", "intent": "HOLD_POSITION", "slots": [{"start": 1, "end": 4, "label": "LOCATION"}]}
+{"id": "seed_019", "text": "原地待命", "intent": "HOLD_POSITION", "slots": []}
+{"id": "seed_020", "text": "保持位置", "intent": "HOLD_POSITION", "slots": []}
+{"id": "seed_021", "text": "守在这里别走", "intent": "HOLD_POSITION", "slots": [{"start": 2, "end": 4, "label": "LOCATION"}]}
+{"id": "seed_022", "text": "守好门", "intent": "HOLD_POSITION", "slots": [{"start": 2, "end": 3, "label": "LOCATION"}]}
+{"id": "seed_023", "text": "打那只机器狗", "intent": "ATTACK_TARGET", "slots": [{"start": 1, "end": 6, "label": "TARGET"}]}
+{"id": "seed_024", "text": "干掉那个无人机", "intent": "ATTACK_TARGET", "slots": [{"start": 2, "end": 7, "label": "TARGET"}]}
+{"id": "seed_025", "text": "火力集中前面那个", "intent": "ATTACK_TARGET", "slots": [{"start": 4, "end": 8, "label": "TARGET"}]}
+{"id": "seed_026", "text": "射那个红色的", "intent": "ATTACK_TARGET", "slots": [{"start": 1, "end": 6, "label": "TARGET"}]}
+{"id": "seed_027", "text": "先打左边的兵", "intent": "ATTACK_TARGET", "slots": [{"start": 2, "end": 6, "label": "TARGET"}]}
+{"id": "seed_028", "text": "打它", "intent": "ATTACK_TARGET", "slots": [{"start": 1, "end": 2, "label": "TARGET"}]}
+{"id": "seed_029", "text": "杀了那只狗", "intent": "ATTACK_TARGET", "slots": [{"start": 2, "end": 5, "label": "TARGET"}]}
+{"id": "seed_030", "text": "开火打那个", "intent": "ATTACK_TARGET", "slots": [{"start": 3, "end": 5, "label": "TARGET"}]}
+{"id": "seed_031", "text": "瞄准右上的炮塔", "intent": "ATTACK_TARGET", "slots": [{"start": 2, "end": 7, "label": "TARGET"}]}
+{"id": "seed_032", "text": "把那家伙干掉", "intent": "ATTACK_TARGET", "slots": [{"start": 1, "end": 4, "label": "TARGET"}]}
+{"id": "seed_033", "text": "攻击目标", "intent": "ATTACK_TARGET", "slots": [{"start": 2, "end": 4, "label": "TARGET"}]}
+{"id": "seed_034", "text": "压制一下", "intent": "SUPPRESS", "slots": []}
+{"id": "seed_035", "text": "帮我顶住", "intent": "SUPPRESS", "slots": []}
+{"id": "seed_036", "text": "火力压制", "intent": "SUPPRESS", "slots": []}
+{"id": "seed_037", "text": "压制那边", "intent": "SUPPRESS", "slots": [{"start": 2, "end": 4, "label": "LOCATION"}]}
+{"id": "seed_038", "text": "掩护我", "intent": "SUPPRESS", "slots": []}
+{"id": "seed_039", "text": "顶一下", "intent": "SUPPRESS", "slots": []}
+{"id": "seed_040", "text": "扫射压制", "intent": "SUPPRESS", "slots": []}
+{"id": "seed_041", "text": "牵制他们", "intent": "SUPPRESS", "slots": [{"start": 2, "end": 4, "label": "TARGET"}]}
+{"id": "seed_042", "text": "拖住敌人", "intent": "SUPPRESS", "slots": [{"start": 2, "end": 4, "label": "TARGET"}]}
+{"id": "seed_043", "text": "用机枪压住", "intent": "SUPPRESS", "slots": []}
+{"id": "seed_044", "text": "对着前方扫射", "intent": "SUPPRESS", "slots": [{"start": 2, "end": 4, "label": "LOCATION"}]}
+{"id": "seed_045", "text": "撤", "intent": "RETREAT", "slots": []}
+{"id": "seed_046", "text": "后撤", "intent": "RETREAT", "slots": []}
+{"id": "seed_047", "text": "撤回来", "intent": "RETREAT", "slots": []}
+{"id": "seed_048", "text": "回来", "intent": "RETREAT", "slots": []}
+{"id": "seed_049", "text": "拉回", "intent": "RETREAT", "slots": []}
+{"id": "seed_050", "text": "撤退", "intent": "RETREAT", "slots": []}
+{"id": "seed_051", "text": "回撤到掩体", "intent": "RETREAT", "slots": [{"start": 3, "end": 5, "label": "LOCATION"}]}
+{"id": "seed_052", "text": "退后", "intent": "RETREAT", "slots": []}
+{"id": "seed_053", "text": "跟我撤", "intent": "RETREAT", "slots": []}
+{"id": "seed_054", "text": "撤到我这里", "intent": "RETREAT", "slots": [{"start": 2, "end": 5, "label": "LOCATION"}]}
+{"id": "seed_055", "text": "快撤", "intent": "RETREAT", "slots": []}
+{"id": "seed_056", "text": "扫一下周围", "intent": "SCAN", "slots": [{"start": 3, "end": 5, "label": "LOCATION"}]}
+{"id": "seed_057", "text": "看看右边", "intent": "SCAN", "slots": [{"start": 2, "end": 4, "label": "LOCATION"}]}
+{"id": "seed_058", "text": "侦查一下", "intent": "SCAN", "slots": []}
+{"id": "seed_059", "text": "扫描区域", "intent": "SCAN", "slots": [{"start": 2, "end": 4, "label": "LOCATION"}]}
+{"id": "seed_060", "text": "看看那边", "intent": "SCAN", "slots": [{"start": 2, "end": 4, "label": "LOCATION"}]}
+{"id": "seed_061", "text": "搜索敌人", "intent": "SCAN", "slots": [{"start": 2, "end": 4, "label": "TARGET"}]}
+{"id": "seed_062", "text": "查看左侧", "intent": "SCAN", "slots": [{"start": 2, "end": 4, "label": "LOCATION"}]}
+{"id": "seed_063", "text": "扫一眼后面", "intent": "SCAN", "slots": [{"start": 3, "end": 5, "label": "LOCATION"}]}
+{"id": "seed_064", "text": "确认安全", "intent": "SCAN", "slots": []}
+{"id": "seed_065", "text": "看看楼上", "intent": "SCAN", "slots": [{"start": 2, "end": 4, "label": "LOCATION"}]}
+{"id": "seed_066", "text": "侦查前方", "intent": "SCAN", "slots": [{"start": 2, "end": 4, "label": "LOCATION"}]}
+{"id": "seed_067", "text": "开那扇门", "intent": "INTERACT", "slots": [{"start": 1, "end": 4, "label": "TARGET"}]}
+{"id": "seed_068", "text": "激活终端", "intent": "INTERACT", "slots": [{"start": 2, "end": 4, "label": "TARGET"}]}
+{"id": "seed_069", "text": "拿那个补给", "intent": "INTERACT", "slots": [{"start": 1, "end": 5, "label": "TARGET"}]}
+{"id": "seed_070", "text": "去开门", "intent": "INTERACT", "slots": [{"start": 2, "end": 3, "label": "TARGET"}]}
+{"id": "seed_071", "text": "破解那个", "intent": "INTERACT", "slots": [{"start": 2, "end": 4, "label": "TARGET"}]}
+{"id": "seed_072", "text": "打开箱子", "intent": "INTERACT", "slots": [{"start": 2, "end": 4, "label": "TARGET"}]}
+{"id": "seed_073", "text": "捡起来", "intent": "INTERACT", "slots": []}
+{"id": "seed_074", "text": "去拿弹药", "intent": "INTERACT", "slots": [{"start": 2, "end": 4, "label": "TARGET"}]}
+{"id": "seed_075", "text": "操作终端", "intent": "INTERACT", "slots": [{"start": 2, "end": 4, "label": "TARGET"}]}
+{"id": "seed_076", "text": "接入电脑", "intent": "INTERACT", "slots": [{"start": 2, "end": 4, "label": "TARGET"}]}
+{"id": "seed_077", "text": "黑掉那个", "intent": "INTERACT", "slots": [{"start": 2, "end": 4, "label": "TARGET"}]}
+{"id": "seed_078", "text": "给我个药", "intent": "HEAL", "slots": []}
+{"id": "seed_079", "text": "帮我治疗", "intent": "HEAL", "slots": []}
+{"id": "seed_080", "text": "我血少了", "intent": "HEAL", "slots": []}
+{"id": "seed_081", "text": "治疗我", "intent": "HEAL", "slots": []}
+{"id": "seed_082", "text": "丢个回血", "intent": "HEAL", "slots": []}
+{"id": "seed_083", "text": "我快不行了", "intent": "HEAL", "slots": []}
+{"id": "seed_084", "text": "急救", "intent": "HEAL", "slots": []}
+{"id": "seed_085", "text": "回血", "intent": "HEAL", "slots": []}
+{"id": "seed_086", "text": "把医疗包给我", "intent": "HEAL", "slots": [{"start": 1, "end": 4, "label": "TARGET"}]}
+{"id": "seed_087", "text": "拉我一把", "intent": "HEAL", "slots": []}
+{"id": "seed_088", "text": "我中弹了", "intent": "HEAL", "slots": []}
+{"id": "seed_089", "text": "你好", "intent": "CHITCHAT", "slots": []}
+{"id": "seed_090", "text": "你叫什么", "intent": "CHITCHAT", "slots": []}
+{"id": "seed_091", "text": "累了吗", "intent": "CHITCHAT", "slots": []}
+{"id": "seed_092", "text": "你怎么看", "intent": "CHITCHAT", "slots": []}
+{"id": "seed_093", "text": "天气真好", "intent": "CHITCHAT", "slots": []}
+{"id": "seed_094", "text": "讲个笑话", "intent": "CHITCHAT", "slots": []}
+{"id": "seed_095", "text": "今天怎么样", "intent": "CHITCHAT", "slots": []}
+{"id": "seed_096", "text": "随便聊聊", "intent": "CHITCHAT", "slots": []}
+{"id": "seed_097", "text": "你喜欢什么音乐", "intent": "CHITCHAT", "slots": []}
+{"id": "seed_098", "text": "废土真冷啊", "intent": "CHITCHAT", "slots": []}
+{"id": "seed_099", "text": "无聊死了", "intent": "CHITCHAT", "slots": []}
+{"id": "seed_100", "text": "你是谁", "intent": "CHITCHAT", "slots": []}
+{"id": "aug_01000", "text": "跟上我", "intent": "FOLLOW", "slots": [], "source_seed_id": "seed_011", "needs_slot_review": false}
+{"id": "aug_01001", "text": "一起走", "intent": "FOLLOW", "slots": [], "source_seed_id": "seed_011", "needs_slot_review": false}
+{"id": "aug_01002", "text": "喂，跟我来", "intent": "FOLLOW", "slots": [], "source_seed_id": "seed_011", "needs_slot_review": false}
+{"id": "aug_01003", "text": "快，跟我一起", "intent": "FOLLOW", "slots": [], "source_seed_id": "seed_011", "needs_slot_review": false}
+{"id": "aug_01004", "text": "跟紧我", "intent": "FOLLOW", "slots": [], "source_seed_id": "seed_011", "needs_slot_review": false}
+{"id": "aug_01005", "text": "跟我来", "intent": "FOLLOW", "slots": [], "source_seed_id": "seed_002", "needs_slot_review": false}
+{"id": "aug_01006", "text": "快跟上", "intent": "FOLLOW", "slots": [], "source_seed_id": "seed_002", "needs_slot_review": false}
+{"id": "aug_01007", "text": "跟着我走", "intent": "FOLLOW", "slots": [], "source_seed_id": "seed_002", "needs_slot_review": false}
+{"id": "aug_01008", "text": "喂，跟上", "intent": "FOLLOW", "slots": [], "source_seed_id": "seed_002", "needs_slot_review": false}
+{"id": "aug_01009", "text": "来，跟我", "intent": "FOLLOW", "slots": [], "source_seed_id": "seed_002", "needs_slot_review": false}
+{"id": "aug_01010", "text": "过来跟着我", "intent": "FOLLOW", "slots": [], "source_seed_id": "seed_001", "needs_slot_review": false}
+{"id": "aug_01011", "text": "跟我一起走", "intent": "FOLLOW", "slots": [], "source_seed_id": "seed_001", "needs_slot_review": false}
+{"id": "aug_01012", "text": "走，跟着我", "intent": "FOLLOW", "slots": [], "source_seed_id": "seed_001", "needs_slot_review": false}
+{"id": "aug_01013", "text": "喂，跟着我", "intent": "FOLLOW", "slots": [], "source_seed_id": "seed_001", "needs_slot_review": false}
+{"id": "aug_01014", "text": "快，跟我走", "intent": "FOLLOW", "slots": [], "source_seed_id": "seed_001", "needs_slot_review": false}
+{"id": "aug_01015", "text": "快过来", "intent": "FOLLOW", "slots": [], "source_seed_id": "seed_005", "needs_slot_review": false}
+{"id": "aug_01016", "text": "到我这边", "intent": "FOLLOW", "slots": [], "source_seed_id": "seed_005", "needs_slot_review": false}
+{"id": "aug_01017", "text": "跟我来这儿", "intent": "FOLLOW", "slots": [], "source_seed_id": "seed_004", "needs_slot_review": true}
+{"id": "aug_01018", "text": "快过来这边", "intent": "FOLLOW", "slots": [], "source_seed_id": "seed_004", "needs_slot_review": true}
+{"id": "aug_01019", "text": "到我这儿来", "intent": "FOLLOW", "slots": [], "source_seed_id": "seed_004", "needs_slot_review": true}
+{"id": "aug_01020", "text": "来我这边", "intent": "FOLLOW", "slots": [], "source_seed_id": "seed_004", "needs_slot_review": true}
+{"id": "aug_01021", "text": "跟上我，这边", "intent": "FOLLOW", "slots": [], "source_seed_id": "seed_004", "needs_slot_review": true}
+{"id": "aug_01022", "text": "来这儿集合", "intent": "FOLLOW", "slots": [], "source_seed_id": "seed_004", "needs_slot_review": true}
+{"id": "aug_01023", "text": "来我这儿", "intent": "FOLLOW", "slots": [], "source_seed_id": "seed_004", "needs_slot_review": true}
+{"id": "aug_01024", "text": "到我这边来", "intent": "FOLLOW", "slots": [], "source_seed_id": "seed_004", "needs_slot_review": true}
+{"id": "aug_01025", "text": "喂，过来", "intent": "FOLLOW", "slots": [], "source_seed_id": "seed_004", "needs_slot_review": true}
+{"id": "aug_01026", "text": "快跟上来", "intent": "FOLLOW", "slots": [], "source_seed_id": "seed_004", "needs_slot_review": true}
+{"id": "aug_01027", "text": "这边集合", "intent": "FOLLOW", "slots": [], "source_seed_id": "seed_004", "needs_slot_review": true}
+{"id": "aug_01028", "text": "别走散了", "intent": "FOLLOW", "slots": [], "source_seed_id": "seed_003", "needs_slot_review": false}
+{"id": "aug_01029", "text": "别落下", "intent": "FOLLOW", "slots": [], "source_seed_id": "seed_003", "needs_slot_review": false}
+{"id": "aug_01030", "text": "跟上别掉队", "intent": "FOLLOW", "slots": [], "source_seed_id": "seed_003", "needs_slot_review": false}
+{"id": "aug_01031", "text": "跟住我", "intent": "FOLLOW", "slots": [], "source_seed_id": "seed_003", "needs_slot_review": false}
+{"id": "aug_01032", "text": "别掉队，跟紧", "intent": "FOLLOW", "slots": [], "source_seed_id": "seed_003", "needs_slot_review": false}
+{"id": "aug_01033", "text": "快跟上我", "intent": "FOLLOW", "slots": [], "source_seed_id": "seed_002", "needs_slot_review": false}
+{"id": "aug_01034", "text": "赶紧跟上来", "intent": "FOLLOW", "slots": [], "source_seed_id": "seed_002", "needs_slot_review": false}
+{"id": "aug_01035", "text": "随我来", "intent": "FOLLOW", "slots": [], "source_seed_id": "seed_011", "needs_slot_review": false}
+{"id": "aug_01036", "text": "走，跟我", "intent": "FOLLOW", "slots": [], "source_seed_id": "seed_011", "needs_slot_review": false}
+{"id": "aug_01037", "text": "跟我出发", "intent": "FOLLOW", "slots": [], "source_seed_id": "seed_011", "needs_slot_review": false}
+{"id": "aug_01038", "text": "过来我这里", "intent": "FOLLOW", "slots": [], "source_seed_id": "seed_009", "needs_slot_review": false}
+{"id": "aug_01039", "text": "往我这边靠", "intent": "FOLLOW", "slots": [], "source_seed_id": "seed_009", "needs_slot_review": false}
+{"id": "aug_01040", "text": "到我身边来", "intent": "FOLLOW", "slots": [], "source_seed_id": "seed_009", "needs_slot_review": false}
+{"id": "aug_01041", "text": "接近我", "intent": "FOLLOW", "slots": [], "source_seed_id": "seed_009", "needs_slot_review": false}
+{"id": "aug_01042", "text": "贴着我走", "intent": "FOLLOW", "slots": [], "source_seed_id": "seed_009", "needs_slot_review": false}
+{"id": "aug_01043", "text": "紧跟我", "intent": "FOLLOW", "slots": [], "source_seed_id": "seed_010", "needs_slot_review": false}
+{"id": "aug_01044", "text": "跟过来", "intent": "FOLLOW", "slots": [], "source_seed_id": "seed_010", "needs_slot_review": false}
+{"id": "aug_01045", "text": "跟我冲", "intent": "FOLLOW", "slots": [], "source_seed_id": "seed_001", "needs_slot_review": false}
+{"id": "aug_01046", "text": "来，跟着我", "intent": "FOLLOW", "slots": [], "source_seed_id": "seed_001", "needs_slot_review": false}
+{"id": "aug_01047", "text": "快跟我走", "intent": "FOLLOW", "slots": [], "source_seed_id": "seed_001", "needs_slot_review": false}
+{"id": "aug_01048", "text": "跟我上", "intent": "FOLLOW", "slots": [], "source_seed_id": "seed_001", "needs_slot_review": false}
+{"id": "aug_01049", "text": "大家跟我", "intent": "FOLLOW", "slots": [], "source_seed_id": "seed_001", "needs_slot_review": false}
+{"id": "aug_01050", "text": "跟我一起", "intent": "FOLLOW", "slots": [], "source_seed_id": "seed_001", "needs_slot_review": false}
+{"id": "aug_01051", "text": "都跟我来", "intent": "FOLLOW", "slots": [], "source_seed_id": "seed_001", "needs_slot_review": false}
+{"id": "aug_01052", "text": "来，跟着", "intent": "FOLLOW", "slots": [], "source_seed_id": "seed_002", "needs_slot_review": false}
+{"id": "aug_01053", "text": "来我这里", "intent": "FOLLOW", "slots": [], "source_seed_id": "seed_004", "needs_slot_review": true}
+{"id": "aug_01054", "text": "往我这靠", "intent": "FOLLOW", "slots": [], "source_seed_id": "seed_004", "needs_slot_review": true}
+{"id": "aug_01055", "text": "来这边", "intent": "FOLLOW", "slots": [], "source_seed_id": "seed_004", "needs_slot_review": true}
+{"id": "aug_01056", "text": "快来我身边", "intent": "FOLLOW", "slots": [], "source_seed_id": "seed_009", "needs_slot_review": false}
+{"id": "aug_01057", "text": "靠过来", "intent": "FOLLOW", "slots": [], "source_seed_id": "seed_009", "needs_slot_review": false}
+{"id": "aug_01058", "text": "到我附近", "intent": "FOLLOW", "slots": [], "source_seed_id": "seed_009", "needs_slot_review": false}
+{"id": "aug_01059", "text": "跟着走", "intent": "FOLLOW", "slots": [], "source_seed_id": "seed_010", "needs_slot_review": false}
+{"id": "aug_01060", "text": "别走散", "intent": "FOLLOW", "slots": [], "source_seed_id": "seed_010", "needs_slot_review": false}
+{"id": "aug_01061", "text": "来来，跟我", "intent": "FOLLOW", "slots": [], "source_seed_id": "seed_001", "needs_slot_review": false}
+{"id": "aug_01062", "text": "快靠近我", "intent": "FOLLOW", "slots": [], "source_seed_id": "seed_009", "needs_slot_review": false}
+{"id": "aug_01063", "text": "过来我这儿", "intent": "FOLLOW", "slots": [], "source_seed_id": "seed_004", "needs_slot_review": true}
+{"id": "aug_01064", "text": "往我这儿靠", "intent": "FOLLOW", "slots": [], "source_seed_id": "seed_004", "needs_slot_review": true}
+{"id": "aug_01065", "text": "随我上", "intent": "FOLLOW", "slots": [], "source_seed_id": "seed_011", "needs_slot_review": false}
+{"id": "aug_01066", "text": "跟我一块", "intent": "FOLLOW", "slots": [], "source_seed_id": "seed_011", "needs_slot_review": false}
+{"id": "aug_01067", "text": "靠近我这边", "intent": "FOLLOW", "slots": [], "source_seed_id": "seed_009", "needs_slot_review": false}
+{"id": "aug_01068", "text": "快过来我这里", "intent": "FOLLOW", "slots": [], "source_seed_id": "seed_009", "needs_slot_review": false}
+{"id": "aug_01069", "text": "跟上来", "intent": "FOLLOW", "slots": [], "source_seed_id": "seed_007", "needs_slot_review": false}
+{"id": "aug_01070", "text": "过来这儿", "intent": "FOLLOW", "slots": [], "source_seed_id": "seed_004", "needs_slot_review": true}
+{"id": "aug_01071", "text": "往我这边来", "intent": "FOLLOW", "slots": [], "source_seed_id": "seed_004", "needs_slot_review": true}
+{"id": "aug_01072", "text": "跟我过来", "intent": "FOLLOW", "slots": [], "source_seed_id": "seed_004", "needs_slot_review": true}
+{"id": "aug_01073", "text": "走啦", "intent": "FOLLOW", "slots": [], "source_seed_id": "seed_008", "needs_slot_review": false}
+{"id": "aug_01074", "text": "走了", "intent": "FOLLOW", "slots": [], "source_seed_id": "seed_008", "needs_slot_review": false}
+{"id": "aug_01075", "text": "贴紧我", "intent": "FOLLOW", "slots": [], "source_seed_id": "seed_010", "needs_slot_review": false}
+{"id": "aug_01076", "text": "喂，跟我走", "intent": "FOLLOW", "slots": [], "source_seed_id": "seed_001", "needs_slot_review": false}
+{"id": "aug_01077", "text": "别掉队啊", "intent": "FOLLOW", "slots": [], "source_seed_id": "seed_003", "needs_slot_review": false}
+{"id": "aug_01078", "text": "喂，跟着", "intent": "FOLLOW", "slots": [], "source_seed_id": "seed_003", "needs_slot_review": false}
+{"id": "aug_01079", "text": "楼梯口蹲好", "intent": "HOLD_POSITION", "slots": [], "source_seed_id": "seed_018", "needs_slot_review": true}
+{"id": "aug_01080", "text": "在楼梯口守着", "intent": "HOLD_POSITION", "slots": [], "source_seed_id": "seed_018", "needs_slot_review": true}
+{"id": "aug_01081", "text": "楼梯口卡一下位置", "intent": "HOLD_POSITION", "slots": [], "source_seed_id": "seed_018", "needs_slot_review": true}
+{"id": "aug_01082", "text": "蹲楼梯口别动", "intent": "HOLD_POSITION", "slots": [], "source_seed_id": "seed_018", "needs_slot_review": true}
+{"id": "aug_01083", "text": "守住楼梯口", "intent": "HOLD_POSITION", "slots": [], "source_seed_id": "seed_018", "needs_slot_review": true}
+{"id": "aug_01084", "text": "楼梯口盯紧了", "intent": "HOLD_POSITION", "slots": [], "source_seed_id": "seed_018", "needs_slot_review": true}
+{"id": "aug_01085", "text": "守着掩体别动", "intent": "HOLD_POSITION", "slots": [], "source_seed_id": "seed_017", "needs_slot_review": true}
+{"id": "aug_01086", "text": "看住这个掩体", "intent": "HOLD_POSITION", "slots": [], "source_seed_id": "seed_017", "needs_slot_review": true}
+{"id": "aug_01087", "text": "这掩体你守住", "intent": "HOLD_POSITION", "slots": [], "source_seed_id": "seed_017", "needs_slot_review": true}
+{"id": "aug_01088", "text": "掩护掩体别丢", "intent": "HOLD_POSITION", "slots": [], "source_seed_id": "seed_017", "needs_slot_review": true}
+{"id": "aug_01089", "text": "掩体交给你了", "intent": "HOLD_POSITION", "slots": [], "source_seed_id": "seed_017", "needs_slot_review": true}
+{"id": "aug_01090", "text": "盯紧这个掩体", "intent": "HOLD_POSITION", "slots": [], "source_seed_id": "seed_017", "needs_slot_review": true}
+{"id": "aug_01091", "text": "就在这里停", "intent": "HOLD_POSITION", "slots": [], "source_seed_id": "seed_016", "needs_slot_review": true}
+{"id": "aug_01092", "text": "别动，停这儿", "intent": "HOLD_POSITION", "slots": [], "source_seed_id": "seed_016", "needs_slot_review": true}
+{"id": "aug_01093", "text": "守住这个位置", "intent": "HOLD_POSITION", "slots": [], "source_seed_id": "seed_016", "needs_slot_review": true}
+{"id": "aug_01094", "text": "就在这停着", "intent": "HOLD_POSITION", "slots": [], "source_seed_id": "seed_016", "needs_slot_review": true}
+{"id": "aug_01095", "text": "停原地别动", "intent": "HOLD_POSITION", "slots": [], "source_seed_id": "seed_016", "needs_slot_review": true}
+{"id": "aug_01096", "text": "喂，停这儿", "intent": "HOLD_POSITION", "slots": [], "source_seed_id": "seed_016", "needs_slot_review": true}
+{"id": "aug_01097", "text": "守好原地", "intent": "HOLD_POSITION", "slots": [], "source_seed_id": "seed_014", "needs_slot_review": true}
+{"id": "aug_01098", "text": "原地等我", "intent": "HOLD_POSITION", "slots": [], "source_seed_id": "seed_014", "needs_slot_review": true}
+{"id": "aug_01099", "text": "待在那别动", "intent": "HOLD_POSITION", "slots": [], "source_seed_id": "seed_014", "needs_slot_review": true}
+{"id": "aug_01100", "text": "守住那位置", "intent": "HOLD_POSITION", "slots": [], "source_seed_id": "seed_014", "needs_slot_review": true}
+{"id": "aug_01101", "text": "原地守一下", "intent": "HOLD_POSITION", "slots": [], "source_seed_id": "seed_014", "needs_slot_review": true}
+{"id": "aug_01102", "text": "就待原地", "intent": "HOLD_POSITION", "slots": [], "source_seed_id": "seed_014", "needs_slot_review": true}
+{"id": "aug_01103", "text": "别动位置", "intent": "HOLD_POSITION", "slots": [], "source_seed_id": "seed_015", "needs_slot_review": false}
+{"id": "aug_01104", "text": "守着别走", "intent": "HOLD_POSITION", "slots": [], "source_seed_id": "seed_015", "needs_slot_review": false}
+{"id": "aug_01105", "text": "原地待着", "intent": "HOLD_POSITION", "slots": [], "source_seed_id": "seed_015", "needs_slot_review": false}
+{"id": "aug_01106", "text": "别乱动啊", "intent": "HOLD_POSITION", "slots": [], "source_seed_id": "seed_015", "needs_slot_review": false}
+{"id": "aug_01107", "text": "就待这儿", "intent": "HOLD_POSITION", "slots": [], "source_seed_id": "seed_015", "needs_slot_review": false}
+{"id": "aug_01108", "text": "别移动", "intent": "HOLD_POSITION", "slots": [], "source_seed_id": "seed_015", "needs_slot_review": false}
+{"id": "aug_01109", "text": "守住那个掩体", "intent": "HOLD_POSITION", "slots": [], "source_seed_id": "seed_017", "needs_slot_review": true}
+{"id": "aug_01110", "text": "看好这个掩体", "intent": "HOLD_POSITION", "slots": [], "source_seed_id": "seed_017", "needs_slot_review": true}
+{"id": "aug_01111", "text": "别让掩体丢了", "intent": "HOLD_POSITION", "slots": [], "source_seed_id": "seed_017", "needs_slot_review": true}
+{"id": "aug_01112", "text": "掩体给我守住", "intent": "HOLD_POSITION", "slots": [], "source_seed_id": "seed_017", "needs_slot_review": true}
+{"id": "aug_01113", "text": "这个掩体看好", "intent": "HOLD_POSITION", "slots": [], "source_seed_id": "seed_017", "needs_slot_review": true}
+{"id": "aug_01114", "text": "守住掩体别撤", "intent": "HOLD_POSITION", "slots": [], "source_seed_id": "seed_017", "needs_slot_review": true}
+{"id": "aug_01115", "text": "看好门口", "intent": "HOLD_POSITION", "slots": [], "source_seed_id": "seed_013", "needs_slot_review": true}
+{"id": "aug_01116", "text": "守住那个门口", "intent": "HOLD_POSITION", "slots": [], "source_seed_id": "seed_013", "needs_slot_review": true}
+{"id": "aug_01117", "text": "门口别放人进来", "intent": "HOLD_POSITION", "slots": [], "source_seed_id": "seed_013", "needs_slot_review": true}
+{"id": "aug_01118", "text": "盯住门口", "intent": "HOLD_POSITION", "slots": [], "source_seed_id": "seed_013", "needs_slot_review": true}
+{"id": "aug_01119", "text": "门口守好了", "intent": "HOLD_POSITION", "slots": [], "source_seed_id": "seed_013", "needs_slot_review": true}
+{"id": "aug_01120", "text": "别让门口漏人", "intent": "HOLD_POSITION", "slots": [], "source_seed_id": "seed_013", "needs_slot_review": true}
+{"id": "aug_01121", "text": "门口别放人", "intent": "HOLD_POSITION", "slots": [], "source_seed_id": "seed_013", "needs_slot_review": true}
+{"id": "aug_01122", "text": "给我堵住门口", "intent": "HOLD_POSITION", "slots": [], "source_seed_id": "seed_013", "needs_slot_review": true}
+{"id": "aug_01123", "text": "守住那个门", "intent": "HOLD_POSITION", "slots": [], "source_seed_id": "seed_013", "needs_slot_review": true}
+{"id": "aug_01124", "text": "门口守紧了", "intent": "HOLD_POSITION", "slots": [], "source_seed_id": "seed_013", "needs_slot_review": true}
+{"id": "aug_01125", "text": "楼梯口守着", "intent": "HOLD_POSITION", "slots": [], "source_seed_id": "seed_018", "needs_slot_review": true}
+{"id": "aug_01126", "text": "在楼梯口蹲好", "intent": "HOLD_POSITION", "slots": [], "source_seed_id": "seed_018", "needs_slot_review": true}
+{"id": "aug_01127", "text": "楼梯口蹲一下", "intent": "HOLD_POSITION", "slots": [], "source_seed_id": "seed_018", "needs_slot_review": true}
+{"id": "aug_01128", "text": "楼梯口卡位", "intent": "HOLD_POSITION", "slots": [], "source_seed_id": "seed_018", "needs_slot_review": true}
+{"id": "aug_01129", "text": "楼梯口盯住", "intent": "HOLD_POSITION", "slots": [], "source_seed_id": "seed_018", "needs_slot_review": true}
+{"id": "aug_01130", "text": "守好那个门口", "intent": "HOLD_POSITION", "slots": [], "source_seed_id": "seed_013", "needs_slot_review": true}
+{"id": "aug_01131", "text": "门口给我盯死了", "intent": "HOLD_POSITION", "slots": [], "source_seed_id": "seed_013", "needs_slot_review": true}
+{"id": "aug_01132", "text": "别让门口失守", "intent": "HOLD_POSITION", "slots": [], "source_seed_id": "seed_013", "needs_slot_review": true}
+{"id": "aug_01133", "text": "门口守住了", "intent": "HOLD_POSITION", "slots": [], "source_seed_id": "seed_013", "needs_slot_review": true}
+{"id": "aug_01134", "text": "务必看住门口", "intent": "HOLD_POSITION", "slots": [], "source_seed_id": "seed_013", "needs_slot_review": true}
+{"id": "aug_01135", "text": "掩体别丢", "intent": "HOLD_POSITION", "slots": [], "source_seed_id": "seed_017", "needs_slot_review": true}
+{"id": "aug_01136", "text": "守好这个掩体", "intent": "HOLD_POSITION", "slots": [], "source_seed_id": "seed_017", "needs_slot_review": true}
+{"id": "aug_01137", "text": "这掩体看住了", "intent": "HOLD_POSITION", "slots": [], "source_seed_id": "seed_017", "needs_slot_review": true}
+{"id": "aug_01138", "text": "掩体守住啊", "intent": "HOLD_POSITION", "slots": [], "source_seed_id": "seed_017", "needs_slot_review": true}
+{"id": "aug_01139", "text": "把这个掩体看牢", "intent": "HOLD_POSITION", "slots": [], "source_seed_id": "seed_017", "needs_slot_review": true}
+{"id": "aug_01140", "text": "喂，掩体守好", "intent": "HOLD_POSITION", "slots": [], "source_seed_id": "seed_017", "needs_slot_review": true}
+{"id": "aug_01141", "text": "守住掩体", "intent": "HOLD_POSITION", "slots": [], "source_seed_id": "seed_017", "needs_slot_review": true}
+{"id": "aug_01142", "text": "这个掩体守住了", "intent": "HOLD_POSITION", "slots": [], "source_seed_id": "seed_017", "needs_slot_review": true}
+{"id": "aug_01143", "text": "别让掩体被占", "intent": "HOLD_POSITION", "slots": [], "source_seed_id": "seed_017", "needs_slot_review": true}
+{"id": "aug_01144", "text": "掩体给我顶住", "intent": "HOLD_POSITION", "slots": [], "source_seed_id": "seed_017", "needs_slot_review": true}
+{"id": "aug_01145", "text": "待在这别动", "intent": "HOLD_POSITION", "slots": [], "source_seed_id": "seed_021", "needs_slot_review": true}
+{"id": "aug_01146", "text": "给我守住这儿", "intent": "HOLD_POSITION", "slots": [], "source_seed_id": "seed_021", "needs_slot_review": true}
+{"id": "aug_01147", "text": "别离开这个位置", "intent": "HOLD_POSITION", "slots": [], "source_seed_id": "seed_021", "needs_slot_review": true}
+{"id": "aug_01148", "text": "守好这里别走", "intent": "HOLD_POSITION", "slots": [], "source_seed_id": "seed_021", "needs_slot_review": true}
+{"id": "aug_01149", "text": "你就在这守着", "intent": "HOLD_POSITION", "slots": [], "source_seed_id": "seed_021", "needs_slot_review": true}
+{"id": "aug_01150", "text": "别乱跑，守位", "intent": "HOLD_POSITION", "slots": [], "source_seed_id": "seed_021", "needs_slot_review": true}
+{"id": "aug_01151", "text": "在这停下", "intent": "HOLD_POSITION", "slots": [], "source_seed_id": "seed_016", "needs_slot_review": true}
+{"id": "aug_01152", "text": "停这儿别动", "intent": "HOLD_POSITION", "slots": [], "source_seed_id": "seed_016", "needs_slot_review": true}
+{"id": "aug_01153", "text": "别走了，停", "intent": "HOLD_POSITION", "slots": [], "source_seed_id": "seed_016", "needs_slot_review": true}
+{"id": "aug_01154", "text": "就在这守着", "intent": "HOLD_POSITION", "slots": [], "source_seed_id": "seed_016", "needs_slot_review": true}
+{"id": "aug_01155", "text": "停住，别过去", "intent": "HOLD_POSITION", "slots": [], "source_seed_id": "seed_016", "needs_slot_review": true}
+{"id": "aug_01156", "text": "这里停下", "intent": "HOLD_POSITION", "slots": [], "source_seed_id": "seed_016", "needs_slot_review": true}
+{"id": "aug_01157", "text": "守好这儿", "intent": "HOLD_POSITION", "slots": [], "source_seed_id": "seed_012", "needs_slot_review": true}
+{"id": "aug_01158", "text": "快打那个目标", "intent": "ATTACK_TARGET", "slots": [], "source_seed_id": "seed_030", "needs_slot_review": true}
+{"id": "aug_01159", "text": "开火打他啊", "intent": "ATTACK_TARGET", "slots": [], "source_seed_id": "seed_030", "needs_slot_review": true}
+{"id": "aug_01160", "text": "打那个家伙", "intent": "ATTACK_TARGET", "slots": [], "source_seed_id": "seed_030", "needs_slot_review": true}
+{"id": "aug_01161", "text": "射击那个目标", "intent": "ATTACK_TARGET", "slots": [], "source_seed_id": "seed_030", "needs_slot_review": true}
+{"id": "aug_01162", "text": "喂打那个", "intent": "ATTACK_TARGET", "slots": [], "source_seed_id": "seed_030", "needs_slot_review": true}
+{"id": "aug_01163", "text": "赶紧开火打那个", "intent": "ATTACK_TARGET", "slots": [], "source_seed_id": "seed_030", "needs_slot_review": true}
+{"id": "aug_01164", "text": "打右上那个炮塔", "intent": "ATTACK_TARGET", "slots": [], "source_seed_id": "seed_031", "needs_slot_review": true}
+{"id": "aug_01165", "text": "快瞄右上的炮塔", "intent": "ATTACK_TARGET", "slots": [], "source_seed_id": "seed_031", "needs_slot_review": true}
+{"id": "aug_01166", "text": "集火右上炮塔", "intent": "ATTACK_TARGET", "slots": [], "source_seed_id": "seed_031", "needs_slot_review": true}
+{"id": "aug_01167", "text": "右上炮塔，打掉", "intent": "ATTACK_TARGET", "slots": [], "source_seed_id": "seed_031", "needs_slot_review": true}
+{"id": "aug_01168", "text": "瞄准右上炮塔开火", "intent": "ATTACK_TARGET", "slots": [], "source_seed_id": "seed_031", "needs_slot_review": true}
+{"id": "aug_01169", "text": "右上那个炮塔，干掉它", "intent": "ATTACK_TARGET", "slots": [], "source_seed_id": "seed_031", "needs_slot_review": true}
+{"id": "aug_01170", "text": "快打掉那架无人机", "intent": "ATTACK_TARGET", "slots": [], "source_seed_id": "seed_024", "needs_slot_review": true}
+{"id": "aug_01171", "text": "把那个无人机干掉", "intent": "ATTACK_TARGET", "slots": [], "source_seed_id": "seed_024", "needs_slot_review": true}
+{"id": "aug_01172", "text": "喂，搞定那无人机", "intent": "ATTACK_TARGET", "slots": [], "source_seed_id": "seed_024", "needs_slot_review": true}
+{"id": "aug_01173", "text": "无人机，快打掉它", "intent": "ATTACK_TARGET", "slots": [], "source_seed_id": "seed_024", "needs_slot_review": true}
+{"id": "aug_01174", "text": "打掉那架无人机", "intent": "ATTACK_TARGET", "slots": [], "source_seed_id": "seed_024", "needs_slot_review": true}
+{"id": "aug_01175", "text": "那个无人机，干掉", "intent": "ATTACK_TARGET", "slots": [], "source_seed_id": "seed_024", "needs_slot_review": true}
+{"id": "aug_01176", "text": "快杀了那只狗", "intent": "ATTACK_TARGET", "slots": [], "source_seed_id": "seed_029", "needs_slot_review": true}
+{"id": "aug_01177", "text": "把那只狗干掉", "intent": "ATTACK_TARGET", "slots": [], "source_seed_id": "seed_029", "needs_slot_review": true}
+{"id": "aug_01178", "text": "喂，宰了那只狗", "intent": "ATTACK_TARGET", "slots": [], "source_seed_id": "seed_029", "needs_slot_review": true}
+{"id": "aug_01179", "text": "干掉那条狗", "intent": "ATTACK_TARGET", "slots": [], "source_seed_id": "seed_029", "needs_slot_review": true}
+{"id": "aug_01180", "text": "快，搞死那只狗", "intent": "ATTACK_TARGET", "slots": [], "source_seed_id": "seed_029", "needs_slot_review": true}
+{"id": "aug_01181", "text": "那只狗，杀了它", "intent": "ATTACK_TARGET", "slots": [], "source_seed_id": "seed_029", "needs_slot_review": true}
+{"id": "aug_01182", "text": "把无人机干掉", "intent": "ATTACK_TARGET", "slots": [], "source_seed_id": "seed_024", "needs_slot_review": true}
+{"id": "aug_01183", "text": "快打掉那无人机", "intent": "ATTACK_TARGET", "slots": [], "source_seed_id": "seed_024", "needs_slot_review": true}
+{"id": "aug_01184", "text": "无人机，搞掉它", "intent": "ATTACK_TARGET", "slots": [], "source_seed_id": "seed_024", "needs_slot_review": true}
+{"id": "aug_01185", "text": "喂，干掉无人机", "intent": "ATTACK_TARGET", "slots": [], "source_seed_id": "seed_024", "needs_slot_review": true}
+{"id": "aug_01186", "text": "无人机给我打下来", "intent": "ATTACK_TARGET", "slots": [], "source_seed_id": "seed_024", "needs_slot_review": true}
+{"id": "aug_01187", "text": "那个无人机，灭了", "intent": "ATTACK_TARGET", "slots": [], "source_seed_id": "seed_024", "needs_slot_review": true}
+{"id": "aug_01188", "text": "打右上的炮塔", "intent": "ATTACK_TARGET", "slots": [], "source_seed_id": "seed_031", "needs_slot_review": true}
+{"id": "aug_01189", "text": "快瞄准右上那个炮塔", "intent": "ATTACK_TARGET", "slots": [], "source_seed_id": "seed_031", "needs_slot_review": true}
+{"id": "aug_01190", "text": "右上炮塔，打它", "intent": "ATTACK_TARGET", "slots": [], "source_seed_id": "seed_031", "needs_slot_review": true}
+{"id": "aug_01191", "text": "喂，右上炮塔打掉", "intent": "ATTACK_TARGET", "slots": [], "source_seed_id": "seed_031", "needs_slot_review": true}
+{"id": "aug_01192", "text": "右上的炮塔，快打", "intent": "ATTACK_TARGET", "slots": [], "source_seed_id": "seed_031", "needs_slot_review": true}
+{"id": "aug_01193", "text": "先打左边那个兵", "intent": "ATTACK_TARGET", "slots": [], "source_seed_id": "seed_027", "needs_slot_review": true}
+{"id": "aug_01194", "text": "快干左边的兵", "intent": "ATTACK_TARGET", "slots": [], "source_seed_id": "seed_027", "needs_slot_review": true}
+{"id": "aug_01195", "text": "左边兵先打", "intent": "ATTACK_TARGET", "slots": [], "source_seed_id": "seed_027", "needs_slot_review": true}
+{"id": "aug_01196", "text": "先收拾左边的小兵", "intent": "ATTACK_TARGET", "slots": [], "source_seed_id": "seed_027", "needs_slot_review": true}
+{"id": "aug_01197", "text": "打左边那个兵", "intent": "ATTACK_TARGET", "slots": [], "source_seed_id": "seed_027", "needs_slot_review": true}
+{"id": "aug_01198", "text": "左边兵，先打掉", "intent": "ATTACK_TARGET", "slots": [], "source_seed_id": "seed_027", "needs_slot_review": true}
+{"id": "aug_01199", "text": "打那个目标", "intent": "ATTACK_TARGET", "slots": [], "source_seed_id": "seed_033", "needs_slot_review": true}
+{"id": "aug_01200", "text": "快攻击目标", "intent": "ATTACK_TARGET", "slots": [], "source_seed_id": "seed_033", "needs_slot_review": true}
+{"id": "aug_01201", "text": "目标给我打", "intent": "ATTACK_TARGET", "slots": [], "source_seed_id": "seed_033", "needs_slot_review": true}
+{"id": "aug_01202", "text": "集中打目标", "intent": "ATTACK_TARGET", "slots": [], "source_seed_id": "seed_033", "needs_slot_review": true}
+{"id": "aug_01203", "text": "先打目标", "intent": "ATTACK_TARGET", "slots": [], "source_seed_id": "seed_033", "needs_slot_review": true}
+{"id": "aug_01204", "text": "目标，打掉", "intent": "ATTACK_TARGET", "slots": [], "source_seed_id": "seed_033", "needs_slot_review": true}
+{"id": "aug_01205", "text": "快，把那个家伙做了", "intent": "ATTACK_TARGET", "slots": [], "source_seed_id": "seed_032", "needs_slot_review": true}
+{"id": "aug_01206", "text": "喂，干掉那家伙", "intent": "ATTACK_TARGET", "slots": [], "source_seed_id": "seed_032", "needs_slot_review": true}
+{"id": "aug_01207", "text": "把那家伙宰了", "intent": "ATTACK_TARGET", "slots": [], "source_seed_id": "seed_032", "needs_slot_review": true}
+{"id": "aug_01208", "text": "弄死那家伙", "intent": "ATTACK_TARGET", "slots": [], "source_seed_id": "seed_032", "needs_slot_review": true}
+{"id": "aug_01209", "text": "快，把那家伙放倒", "intent": "ATTACK_TARGET", "slots": [], "source_seed_id": "seed_032", "needs_slot_review": true}
+{"id": "aug_01210", "text": "把那家伙解决掉", "intent": "ATTACK_TARGET", "slots": [], "source_seed_id": "seed_032", "needs_slot_review": true}
+{"id": "aug_01211", "text": "快打它", "intent": "ATTACK_TARGET", "slots": [], "source_seed_id": "seed_028", "needs_slot_review": true}
+{"id": "aug_01212", "text": "打那个", "intent": "ATTACK_TARGET", "slots": [], "source_seed_id": "seed_028", "needs_slot_review": true}
+{"id": "aug_01213", "text": "揍它", "intent": "ATTACK_TARGET", "slots": [], "source_seed_id": "seed_028", "needs_slot_review": true}
+{"id": "aug_01214", "text": "干它", "intent": "ATTACK_TARGET", "slots": [], "source_seed_id": "seed_028", "needs_slot_review": true}
+{"id": "aug_01215", "text": "打这玩意儿", "intent": "ATTACK_TARGET", "slots": [], "source_seed_id": "seed_028", "needs_slot_review": true}
+{"id": "aug_01216", "text": "给我打它", "intent": "ATTACK_TARGET", "slots": [], "source_seed_id": "seed_028", "needs_slot_review": true}
+{"id": "aug_01217", "text": "快把那人做了", "intent": "ATTACK_TARGET", "slots": [], "source_seed_id": "seed_032", "needs_slot_review": true}
+{"id": "aug_01218", "text": "干掉那个家伙", "intent": "ATTACK_TARGET", "slots": [], "source_seed_id": "seed_032", "needs_slot_review": true}
+{"id": "aug_01219", "text": "把丫给做了", "intent": "ATTACK_TARGET", "slots": [], "source_seed_id": "seed_032", "needs_slot_review": true}
+{"id": "aug_01220", "text": "做了那货", "intent": "ATTACK_TARGET", "slots": [], "source_seed_id": "seed_032", "needs_slot_review": true}
+{"id": "aug_01221", "text": "把那货给崩了", "intent": "ATTACK_TARGET", "slots": [], "source_seed_id": "seed_032", "needs_slot_review": true}
+{"id": "aug_01222", "text": "嘁哩喀喳做了他", "intent": "ATTACK_TARGET", "slots": [], "source_seed_id": "seed_032", "needs_slot_review": true}
+{"id": "aug_01223", "text": "打那个红的", "intent": "ATTACK_TARGET", "slots": [], "source_seed_id": "seed_026", "needs_slot_review": true}
+{"id": "aug_01224", "text": "快射红色的", "intent": "ATTACK_TARGET", "slots": [], "source_seed_id": "seed_026", "needs_slot_review": true}
+{"id": "aug_01225", "text": "打红色那个", "intent": "ATTACK_TARGET", "slots": [], "source_seed_id": "seed_026", "needs_slot_review": true}
+{"id": "aug_01226", "text": "射那个红的呗", "intent": "ATTACK_TARGET", "slots": [], "source_seed_id": "seed_026", "needs_slot_review": true}
+{"id": "aug_01227", "text": "红色那个，打", "intent": "ATTACK_TARGET", "slots": [], "source_seed_id": "seed_026", "needs_slot_review": true}
+{"id": "aug_01228", "text": "瞄准红色射", "intent": "ATTACK_TARGET", "slots": [], "source_seed_id": "seed_026", "needs_slot_review": true}
+{"id": "aug_01229", "text": "把那无人机灭了", "intent": "ATTACK_TARGET", "slots": [], "source_seed_id": "seed_024", "needs_slot_review": true}
+{"id": "aug_01230", "text": "无人机，干掉它", "intent": "ATTACK_TARGET", "slots": [], "source_seed_id": "seed_024", "needs_slot_review": true}
+{"id": "aug_01231", "text": "喂，打无人机", "intent": "ATTACK_TARGET", "slots": [], "source_seed_id": "seed_024", "needs_slot_review": true}
+{"id": "aug_01232", "text": "无人机快打掉", "intent": "ATTACK_TARGET", "slots": [], "source_seed_id": "seed_024", "needs_slot_review": true}
+{"id": "aug_01233", "text": "干掉那玩意儿无人机", "intent": "ATTACK_TARGET", "slots": [], "source_seed_id": "seed_024", "needs_slot_review": true}
+{"id": "aug_01234", "text": "集火那只机器狗", "intent": "ATTACK_TARGET", "slots": [], "source_seed_id": "seed_023", "needs_slot_review": true}
+{"id": "aug_01235", "text": "快打机器狗", "intent": "ATTACK_TARGET", "slots": [], "source_seed_id": "seed_023", "needs_slot_review": true}
+{"id": "aug_01236", "text": "干掉那只机器狗", "intent": "ATTACK_TARGET", "slots": [], "source_seed_id": "seed_023", "needs_slot_review": true}
+{"id": "aug_01237", "text": "往前扫射！", "intent": "SUPPRESS", "slots": [], "source_seed_id": "seed_044", "needs_slot_review": true}
+{"id": "aug_01238", "text": "朝前面开火压制", "intent": "SUPPRESS", "slots": [], "source_seed_id": "seed_044", "needs_slot_review": true}
+{"id": "aug_01239", "text": "快点，向前扫射", "intent": "SUPPRESS", "slots": [], "source_seed_id": "seed_044", "needs_slot_review": true}
+{"id": "aug_01240", "text": "对前面猛打", "intent": "SUPPRESS", "slots": [], "source_seed_id": "seed_044", "needs_slot_review": true}
+{"id": "aug_01241", "text": "往前压住打", "intent": "SUPPRESS", "slots": [], "source_seed_id": "seed_044", "needs_slot_review": true}
+{"id": "aug_01242", "text": "喂，前方扫射掩护", "intent": "SUPPRESS", "slots": [], "source_seed_id": "seed_044", "needs_slot_review": true}
+{"id": "aug_01243", "text": "火力压制那边", "intent": "SUPPRESS", "slots": [], "source_seed_id": "seed_037", "needs_slot_review": true}
+{"id": "aug_01244", "text": "快压制那个方向", "intent": "SUPPRESS", "slots": [], "source_seed_id": "seed_037", "needs_slot_review": true}
+{"id": "aug_01245", "text": "那边，给我压住", "intent": "SUPPRESS", "slots": [], "source_seed_id": "seed_037", "needs_slot_review": true}
+{"id": "aug_01246", "text": "对准那边猛打", "intent": "SUPPRESS", "slots": [], "source_seed_id": "seed_037", "needs_slot_review": true}
+{"id": "aug_01247", "text": "掩护那边，快点", "intent": "SUPPRESS", "slots": [], "source_seed_id": "seed_037", "needs_slot_review": true}
+{"id": "aug_01248", "text": "那边火力别停", "intent": "SUPPRESS", "slots": [], "source_seed_id": "seed_037", "needs_slot_review": true}
+{"id": "aug_01249", "text": "快掩护", "intent": "SUPPRESS", "slots": [], "source_seed_id": "seed_038", "needs_slot_review": false}
+{"id": "aug_01250", "text": "给我打掩护", "intent": "SUPPRESS", "slots": [], "source_seed_id": "seed_038", "needs_slot_review": false}
+{"id": "aug_01251", "text": "掩护一下", "intent": "SUPPRESS", "slots": [], "source_seed_id": "seed_038", "needs_slot_review": false}
+{"id": "aug_01252", "text": "帮我架枪", "intent": "SUPPRESS", "slots": [], "source_seed_id": "seed_038", "needs_slot_review": false}
+{"id": "aug_01253", "text": "火力掩护", "intent": "SUPPRESS", "slots": [], "source_seed_id": "seed_038", "needs_slot_review": false}
+{"id": "aug_01254", "text": "顶住啊", "intent": "SUPPRESS", "slots": [], "source_seed_id": "seed_035", "needs_slot_review": false}
+{"id": "aug_01255", "text": "喂，帮我扛一下", "intent": "SUPPRESS", "slots": [], "source_seed_id": "seed_035", "needs_slot_review": false}
+{"id": "aug_01256", "text": "快顶住", "intent": "SUPPRESS", "slots": [], "source_seed_id": "seed_035", "needs_slot_review": false}
+{"id": "aug_01257", "text": "撑住", "intent": "SUPPRESS", "slots": [], "source_seed_id": "seed_035", "needs_slot_review": false}
+{"id": "aug_01258", "text": "帮我挡一挡", "intent": "SUPPRESS", "slots": [], "source_seed_id": "seed_035", "needs_slot_review": false}
+{"id": "aug_01259", "text": "火力压住那边", "intent": "SUPPRESS", "slots": [], "source_seed_id": "seed_037", "needs_slot_review": true}
+{"id": "aug_01260", "text": "快，压制那个方向", "intent": "SUPPRESS", "slots": [], "source_seed_id": "seed_037", "needs_slot_review": true}
+{"id": "aug_01261", "text": "掩护那边", "intent": "SUPPRESS", "slots": [], "source_seed_id": "seed_037", "needs_slot_review": true}
+{"id": "aug_01262", "text": "那边，火力压制", "intent": "SUPPRESS", "slots": [], "source_seed_id": "seed_037", "needs_slot_review": true}
+{"id": "aug_01263", "text": "喂，压制住那边", "intent": "SUPPRESS", "slots": [], "source_seed_id": "seed_037", "needs_slot_review": true}
+{"id": "aug_01264", "text": "快顶住啊", "intent": "SUPPRESS", "slots": [], "source_seed_id": "seed_035", "needs_slot_review": false}
+{"id": "aug_01265", "text": "掩护我一下", "intent": "SUPPRESS", "slots": [], "source_seed_id": "seed_035", "needs_slot_review": false}
+{"id": "aug_01266", "text": "火力压住", "intent": "SUPPRESS", "slots": [], "source_seed_id": "seed_035", "needs_slot_review": false}
+{"id": "aug_01267", "text": "顶一顶", "intent": "SUPPRESS", "slots": [], "source_seed_id": "seed_035", "needs_slot_review": false}
+{"id": "aug_01268", "text": "帮忙扛一下", "intent": "SUPPRESS", "slots": [], "source_seed_id": "seed_035", "needs_slot_review": false}
+{"id": "aug_01269", "text": "快扫射压制", "intent": "SUPPRESS", "slots": [], "source_seed_id": "seed_040", "needs_slot_review": false}
+{"id": "aug_01270", "text": "火力压制住", "intent": "SUPPRESS", "slots": [], "source_seed_id": "seed_040", "needs_slot_review": false}
+{"id": "aug_01271", "text": "用扫射压住", "intent": "SUPPRESS", "slots": [], "source_seed_id": "seed_040", "needs_slot_review": false}
+{"id": "aug_01272", "text": "给我扫射压", "intent": "SUPPRESS", "slots": [], "source_seed_id": "seed_040", "needs_slot_review": false}
+{"id": "aug_01273", "text": "压制住他们", "intent": "SUPPRESS", "slots": [], "source_seed_id": "seed_040", "needs_slot_review": false}
+{"id": "aug_01274", "text": "扫射掩护我", "intent": "SUPPRESS", "slots": [], "source_seed_id": "seed_040", "needs_slot_review": false}
+{"id": "aug_01275", "text": "快掩护我", "intent": "SUPPRESS", "slots": [], "source_seed_id": "seed_038", "needs_slot_review": false}
+{"id": "aug_01276", "text": "诶，掩护一下", "intent": "SUPPRESS", "slots": [], "source_seed_id": "seed_038", "needs_slot_review": false}
+{"id": "aug_01277", "text": "喂，火力掩护", "intent": "SUPPRESS", "slots": [], "source_seed_id": "seed_038", "needs_slot_review": false}
+{"id": "aug_01278", "text": "快，掩护我", "intent": "SUPPRESS", "slots": [], "source_seed_id": "seed_038", "needs_slot_review": false}
+{"id": "aug_01279", "text": "压制他们", "intent": "SUPPRESS", "slots": [], "source_seed_id": "seed_041", "needs_slot_review": true}
+{"id": "aug_01280", "text": "快牵制住", "intent": "SUPPRESS", "slots": [], "source_seed_id": "seed_041", "needs_slot_review": true}
+{"id": "aug_01281", "text": "别让他们动", "intent": "SUPPRESS", "slots": [], "source_seed_id": "seed_041", "needs_slot_review": true}
+{"id": "aug_01282", "text": "打掩护", "intent": "SUPPRESS", "slots": [], "source_seed_id": "seed_041", "needs_slot_review": true}
+{"id": "aug_01283", "text": "持续压制", "intent": "SUPPRESS", "slots": [], "source_seed_id": "seed_041", "needs_slot_review": true}
+{"id": "aug_01284", "text": "朝前面扫射", "intent": "SUPPRESS", "slots": [], "source_seed_id": "seed_044", "needs_slot_review": true}
+{"id": "aug_01285", "text": "对着正前方打", "intent": "SUPPRESS", "slots": [], "source_seed_id": "seed_044", "needs_slot_review": true}
+{"id": "aug_01286", "text": "往前扫，别停", "intent": "SUPPRESS", "slots": [], "source_seed_id": "seed_044", "needs_slot_review": true}
+{"id": "aug_01287", "text": "前方射击掩护", "intent": "SUPPRESS", "slots": [], "source_seed_id": "seed_044", "needs_slot_review": true}
+{"id": "aug_01288", "text": "对前面开火", "intent": "SUPPRESS", "slots": [], "source_seed_id": "seed_044", "needs_slot_review": true}
+{"id": "aug_01289", "text": "往前打压制", "intent": "SUPPRESS", "slots": [], "source_seed_id": "seed_044", "needs_slot_review": true}
+{"id": "aug_01290", "text": "火力支援", "intent": "SUPPRESS", "slots": [], "source_seed_id": "seed_039", "needs_slot_review": false}
+{"id": "aug_01291", "text": "顶上", "intent": "SUPPRESS", "slots": [], "source_seed_id": "seed_039", "needs_slot_review": false}
+{"id": "aug_01292", "text": "快架枪", "intent": "SUPPRESS", "slots": [], "source_seed_id": "seed_039", "needs_slot_review": false}
+{"id": "aug_01293", "text": "帮我架住", "intent": "SUPPRESS", "slots": [], "source_seed_id": "seed_039", "needs_slot_review": false}
+{"id": "aug_01294", "text": "快开火压制", "intent": "SUPPRESS", "slots": [], "source_seed_id": "seed_036", "needs_slot_review": false}
+{"id": "aug_01295", "text": "火力顶住", "intent": "SUPPRESS", "slots": [], "source_seed_id": "seed_036", "needs_slot_review": false}
+{"id": "aug_01296", "text": "压制射击", "intent": "SUPPRESS", "slots": [], "source_seed_id": "seed_036", "needs_slot_review": false}
+{"id": "aug_01297", "text": "给我压住", "intent": "SUPPRESS", "slots": [], "source_seed_id": "seed_036", "needs_slot_review": false}
+{"id": "aug_01298", "text": "火力掩护我", "intent": "SUPPRESS", "slots": [], "source_seed_id": "seed_036", "needs_slot_review": false}
+{"id": "aug_01299", "text": "快顶上去", "intent": "SUPPRESS", "slots": [], "source_seed_id": "seed_039", "needs_slot_review": false}
+{"id": "aug_01300", "text": "帮我压一下", "intent": "SUPPRESS", "slots": [], "source_seed_id": "seed_039", "needs_slot_review": false}
+{"id": "aug_01301", "text": "顶住他们", "intent": "SUPPRESS", "slots": [], "source_seed_id": "seed_039", "needs_slot_review": false}
+{"id": "aug_01302", "text": "开火掩护", "intent": "SUPPRESS", "slots": [], "source_seed_id": "seed_039", "needs_slot_review": false}
+{"id": "aug_01303", "text": "顶上去", "intent": "SUPPRESS", "slots": [], "source_seed_id": "seed_039", "needs_slot_review": false}
+{"id": "aug_01304", "text": "压住他们", "intent": "SUPPRESS", "slots": [], "source_seed_id": "seed_039", "needs_slot_review": false}
+{"id": "aug_01305", "text": "快压制那边", "intent": "SUPPRESS", "slots": [], "source_seed_id": "seed_037", "needs_slot_review": true}
+{"id": "aug_01306", "text": "诶，火力压那边", "intent": "SUPPRESS", "slots": [], "source_seed_id": "seed_037", "needs_slot_review": true}
+{"id": "aug_01307", "text": "那边，压住", "intent": "SUPPRESS", "slots": [], "source_seed_id": "seed_037", "needs_slot_review": true}
+{"id": "aug_01308", "text": "喂，压制那边", "intent": "SUPPRESS", "slots": [], "source_seed_id": "seed_037", "needs_slot_review": true}
+{"id": "aug_01309", "text": "压住那边", "intent": "SUPPRESS", "slots": [], "source_seed_id": "seed_037", "needs_slot_review": true}
+{"id": "aug_01310", "text": "扫射前方", "intent": "SUPPRESS", "slots": [], "source_seed_id": "seed_044", "needs_slot_review": true}
+{"id": "aug_01311", "text": "往前面猛扫", "intent": "SUPPRESS", "slots": [], "source_seed_id": "seed_044", "needs_slot_review": true}
+{"id": "aug_01312", "text": "前方火力压制", "intent": "SUPPRESS", "slots": [], "source_seed_id": "seed_044", "needs_slot_review": true}
+{"id": "aug_01313", "text": "对前面开枪", "intent": "SUPPRESS", "slots": [], "source_seed_id": "seed_044", "needs_slot_review": true}
+{"id": "aug_01314", "text": "朝前方突突", "intent": "SUPPRESS", "slots": [], "source_seed_id": "seed_044", "needs_slot_review": true}
+{"id": "aug_01315", "text": "前面给我压住", "intent": "SUPPRESS", "slots": [], "source_seed_id": "seed_044", "needs_slot_review": true}
+{"id": "aug_01316", "text": "往回撤", "intent": "RETREAT", "slots": [], "source_seed_id": "seed_049", "needs_slot_review": false}
+{"id": "aug_01317", "text": "快拉回", "intent": "RETREAT", "slots": [], "source_seed_id": "seed_049", "needs_slot_review": false}
+{"id": "aug_01318", "text": "退回来", "intent": "RETREAT", "slots": [], "source_seed_id": "seed_049", "needs_slot_review": false}
+{"id": "aug_01319", "text": "往后拉", "intent": "RETREAT", "slots": [], "source_seed_id": "seed_049", "needs_slot_review": false}
+{"id": "aug_01320", "text": "快撤！", "intent": "RETREAT", "slots": [], "source_seed_id": "seed_055", "needs_slot_review": false}
+{"id": "aug_01321", "text": "赶紧撤！", "intent": "RETREAT", "slots": [], "source_seed_id": "seed_055", "needs_slot_review": false}
+{"id": "aug_01322", "text": "撤啊！", "intent": "RETREAT", "slots": [], "source_seed_id": "seed_055", "needs_slot_review": false}
+{"id": "aug_01323", "text": "快退！", "intent": "RETREAT", "slots": [], "source_seed_id": "seed_055", "needs_slot_review": false}
+{"id": "aug_01324", "text": "撤，马上！", "intent": "RETREAT", "slots": [], "source_seed_id": "seed_055", "needs_slot_review": false}
+{"id": "aug_01325", "text": "快撤啦！", "intent": "RETREAT", "slots": [], "source_seed_id": "seed_055", "needs_slot_review": false}
+{"id": "aug_01326", "text": "撤了撤了！", "intent": "RETREAT", "slots": [], "source_seed_id": "seed_055", "needs_slot_review": false}
+{"id": "aug_01327", "text": "快走！", "intent": "RETREAT", "slots": [], "source_seed_id": "seed_055", "needs_slot_review": false}
+{"id": "aug_01328", "text": "撤退撤退！", "intent": "RETREAT", "slots": [], "source_seed_id": "seed_055", "needs_slot_review": false}
+{"id": "aug_01329", "text": "快后撤", "intent": "RETREAT", "slots": [], "source_seed_id": "seed_046", "needs_slot_review": false}
+{"id": "aug_01330", "text": "撤回去", "intent": "RETREAT", "slots": [], "source_seed_id": "seed_046", "needs_slot_review": false}
+{"id": "aug_01331", "text": "赶紧撤", "intent": "RETREAT", "slots": [], "source_seed_id": "seed_046", "needs_slot_review": false}
+{"id": "aug_01332", "text": "后撤走", "intent": "RETREAT", "slots": [], "source_seed_id": "seed_046", "needs_slot_review": false}
+{"id": "aug_01333", "text": "往后撤", "intent": "RETREAT", "slots": [], "source_seed_id": "seed_046", "needs_slot_review": false}
+{"id": "aug_01334", "text": "撤啊", "intent": "RETREAT", "slots": [], "source_seed_id": "seed_046", "needs_slot_review": false}
+{"id": "aug_01335", "text": "快撤到我这儿", "intent": "RETREAT", "slots": [], "source_seed_id": "seed_054", "needs_slot_review": true}
+{"id": "aug_01336", "text": "撤我这边来", "intent": "RETREAT", "slots": [], "source_seed_id": "seed_054", "needs_slot_review": true}
+{"id": "aug_01337", "text": "往我这里退", "intent": "RETREAT", "slots": [], "source_seed_id": "seed_054", "needs_slot_review": true}
+{"id": "aug_01338", "text": "到我身后撤", "intent": "RETREAT", "slots": [], "source_seed_id": "seed_054", "needs_slot_review": true}
+{"id": "aug_01339", "text": "撤回来我这里", "intent": "RETREAT", "slots": [], "source_seed_id": "seed_054", "needs_slot_review": true}
+{"id": "aug_01340", "text": "喂，撤我这", "intent": "RETREAT", "slots": [], "source_seed_id": "seed_054", "needs_slot_review": true}
+{"id": "aug_01341", "text": "快撤啊", "intent": "RETREAT", "slots": [], "source_seed_id": "seed_055", "needs_slot_review": false}
+{"id": "aug_01342", "text": "撤退快", "intent": "RETREAT", "slots": [], "source_seed_id": "seed_055", "needs_slot_review": false}
+{"id": "aug_01343", "text": "快点撤", "intent": "RETREAT", "slots": [], "source_seed_id": "seed_055", "needs_slot_review": false}
+{"id": "aug_01344", "text": "撤啊快", "intent": "RETREAT", "slots": [], "source_seed_id": "seed_055", "needs_slot_review": false}
+{"id": "aug_01345", "text": "快走撤", "intent": "RETREAT", "slots": [], "source_seed_id": "seed_055", "needs_slot_review": false}
+{"id": "aug_01346", "text": "撤了撤了", "intent": "RETREAT", "slots": [], "source_seed_id": "seed_047", "needs_slot_review": false}
+{"id": "aug_01347", "text": "赶紧撤啊", "intent": "RETREAT", "slots": [], "source_seed_id": "seed_047", "needs_slot_review": false}
+{"id": "aug_01348", "text": "快跟我撤", "intent": "RETREAT", "slots": [], "source_seed_id": "seed_053", "needs_slot_review": false}
+{"id": "aug_01349", "text": "撤，跟我走", "intent": "RETREAT", "slots": [], "source_seed_id": "seed_053", "needs_slot_review": false}
+{"id": "aug_01350", "text": "跟我一起撤", "intent": "RETREAT", "slots": [], "source_seed_id": "seed_053", "needs_slot_review": false}
+{"id": "aug_01351", "text": "喂，跟我撤", "intent": "RETREAT", "slots": [], "source_seed_id": "seed_053", "needs_slot_review": false}
+{"id": "aug_01352", "text": "跟我撤啊", "intent": "RETREAT", "slots": [], "source_seed_id": "seed_053", "needs_slot_review": false}
+{"id": "aug_01353", "text": "撤了，跟上", "intent": "RETREAT", "slots": [], "source_seed_id": "seed_053", "needs_slot_review": false}
+{"id": "aug_01354", "text": "快回来", "intent": "RETREAT", "slots": [], "source_seed_id": "seed_048", "needs_slot_review": false}
+{"id": "aug_01355", "text": "喂，回来", "intent": "RETREAT", "slots": [], "source_seed_id": "seed_048", "needs_slot_review": false}
+{"id": "aug_01356", "text": "赶紧退", "intent": "RETREAT", "slots": [], "source_seed_id": "seed_048", "needs_slot_review": false}
+{"id": "aug_01357", "text": "回来啊", "intent": "RETREAT", "slots": [], "source_seed_id": "seed_048", "needs_slot_review": false}
+{"id": "aug_01358", "text": "撤，回来", "intent": "RETREAT", "slots": [], "source_seed_id": "seed_048", "needs_slot_review": false}
+{"id": "aug_01359", "text": "撤退了", "intent": "RETREAT", "slots": [], "source_seed_id": "seed_047", "needs_slot_review": false}
+{"id": "aug_01360", "text": "撤后", "intent": "RETREAT", "slots": [], "source_seed_id": "seed_052", "needs_slot_review": false}
+{"id": "aug_01361", "text": "快退后", "intent": "RETREAT", "slots": [], "source_seed_id": "seed_052", "needs_slot_review": false}
+{"id": "aug_01362", "text": "退后点", "intent": "RETREAT", "slots": [], "source_seed_id": "seed_052", "needs_slot_review": false}
+{"id": "aug_01363", "text": "往后走", "intent": "RETREAT", "slots": [], "source_seed_id": "seed_052", "needs_slot_review": false}
+{"id": "aug_01364", "text": "退回去", "intent": "RETREAT", "slots": [], "source_seed_id": "seed_052", "needs_slot_review": false}
+{"id": "aug_01365", "text": "快回掩体去", "intent": "RETREAT", "slots": [], "source_seed_id": "seed_051", "needs_slot_review": true}
+{"id": "aug_01366", "text": "撤到掩体后面", "intent": "RETREAT", "slots": [], "source_seed_id": "seed_051", "needs_slot_review": true}
+{"id": "aug_01367", "text": "回掩体，快点", "intent": "RETREAT", "slots": [], "source_seed_id": "seed_051", "needs_slot_review": true}
+{"id": "aug_01368", "text": "后撤，掩体里", "intent": "RETREAT", "slots": [], "source_seed_id": "seed_051", "needs_slot_review": true}
+{"id": "aug_01369", "text": "退回掩体", "intent": "RETREAT", "slots": [], "source_seed_id": "seed_051", "needs_slot_review": true}
+{"id": "aug_01370", "text": "赶紧回掩体", "intent": "RETREAT", "slots": [], "source_seed_id": "seed_051", "needs_slot_review": true}
+{"id": "aug_01371", "text": "撤！", "intent": "RETREAT", "slots": [], "source_seed_id": "seed_049", "needs_slot_review": false}
+{"id": "aug_01372", "text": "拉回来！", "intent": "RETREAT", "slots": [], "source_seed_id": "seed_049", "needs_slot_review": false}
+{"id": "aug_01373", "text": "往回撤！", "intent": "RETREAT", "slots": [], "source_seed_id": "seed_049", "needs_slot_review": false}
+{"id": "aug_01374", "text": "退后！", "intent": "RETREAT", "slots": [], "source_seed_id": "seed_049", "needs_slot_review": false}
+{"id": "aug_01375", "text": "快走快走", "intent": "RETREAT", "slots": [], "source_seed_id": "seed_055", "needs_slot_review": false}
+{"id": "aug_01376", "text": "快往后撤", "intent": "RETREAT", "slots": [], "source_seed_id": "seed_055", "needs_slot_review": false}
+{"id": "aug_01377", "text": "喂，撤了", "intent": "RETREAT", "slots": [], "source_seed_id": "seed_053", "needs_slot_review": false}
+{"id": "aug_01378", "text": "快，跟我撤", "intent": "RETREAT", "slots": [], "source_seed_id": "seed_053", "needs_slot_review": false}
+{"id": "aug_01379", "text": "跟我撤回去", "intent": "RETREAT", "slots": [], "source_seed_id": "seed_053", "needs_slot_review": false}
+{"id": "aug_01380", "text": "撤，这边", "intent": "RETREAT", "slots": [], "source_seed_id": "seed_053", "needs_slot_review": false}
+{"id": "aug_01381", "text": "撤，跟我来", "intent": "RETREAT", "slots": [], "source_seed_id": "seed_053", "needs_slot_review": false}
+{"id": "aug_01382", "text": "喂回来", "intent": "RETREAT", "slots": [], "source_seed_id": "seed_048", "needs_slot_review": false}
+{"id": "aug_01383", "text": "往回走", "intent": "RETREAT", "slots": [], "source_seed_id": "seed_048", "needs_slot_review": false}
+{"id": "aug_01384", "text": "撤撤撤", "intent": "RETREAT", "slots": [], "source_seed_id": "seed_055", "needs_slot_review": false}
+{"id": "aug_01385", "text": "马上撤", "intent": "RETREAT", "slots": [], "source_seed_id": "seed_055", "needs_slot_review": false}
+{"id": "aug_01386", "text": "撤退！", "intent": "RETREAT", "slots": [], "source_seed_id": "seed_045", "needs_slot_review": false}
+{"id": "aug_01387", "text": "赶紧回来", "intent": "RETREAT", "slots": [], "source_seed_id": "seed_048", "needs_slot_review": false}
+{"id": "aug_01388", "text": "撤到掩体里", "intent": "RETREAT", "slots": [], "source_seed_id": "seed_051", "needs_slot_review": true}
+{"id": "aug_01389", "text": "快回掩体", "intent": "RETREAT", "slots": [], "source_seed_id": "seed_051", "needs_slot_review": true}
+{"id": "aug_01390", "text": "退回掩体去", "intent": "RETREAT", "slots": [], "source_seed_id": "seed_051", "needs_slot_review": true}
+{"id": "aug_01391", "text": "往掩体撤", "intent": "RETREAT", "slots": [], "source_seed_id": "seed_051", "needs_slot_review": true}
+{"id": "aug_01392", "text": "回掩体躲好", "intent": "RETREAT", "slots": [], "source_seed_id": "seed_051", "needs_slot_review": true}
+{"id": "aug_01393", "text": "赶紧撤进掩体", "intent": "RETREAT", "slots": [], "source_seed_id": "seed_051", "needs_slot_review": true}
+{"id": "aug_01394", "text": "往回拉", "intent": "RETREAT", "slots": [], "source_seed_id": "seed_049", "needs_slot_review": false}
+{"id": "aug_01395", "text": "右边瞧一眼", "intent": "SCAN", "slots": [], "source_seed_id": "seed_057", "needs_slot_review": true}
+{"id": "aug_01396", "text": "瞅瞅右边", "intent": "SCAN", "slots": [], "source_seed_id": "seed_057", "needs_slot_review": true}
+{"id": "aug_01397", "text": "喂，看右边", "intent": "SCAN", "slots": [], "source_seed_id": "seed_057", "needs_slot_review": true}
+{"id": "aug_01398", "text": "右边扫一下", "intent": "SCAN", "slots": [], "source_seed_id": "seed_057", "needs_slot_review": true}
+{"id": "aug_01399", "text": "快看右边", "intent": "SCAN", "slots": [], "source_seed_id": "seed_057", "needs_slot_review": true}
+{"id": "aug_01400", "text": "右边，看一眼", "intent": "SCAN", "slots": [], "source_seed_id": "seed_057", "needs_slot_review": true}
+{"id": "aug_01401", "text": "扫一下这区域", "intent": "SCAN", "slots": [], "source_seed_id": "seed_059", "needs_slot_review": true}
+{"id": "aug_01402", "text": "快扫描这片区", "intent": "SCAN", "slots": [], "source_seed_id": "seed_059", "needs_slot_review": true}
+{"id": "aug_01403", "text": "诶，区域扫一遍", "intent": "SCAN", "slots": [], "source_seed_id": "seed_059", "needs_slot_review": true}
+{"id": "aug_01404", "text": "把这区域扫了", "intent": "SCAN", "slots": [], "source_seed_id": "seed_059", "needs_slot_review": true}
+{"id": "aug_01405", "text": "喂，扫一下区域", "intent": "SCAN", "slots": [], "source_seed_id": "seed_059", "needs_slot_review": true}
+{"id": "aug_01406", "text": "区域侦查一下", "intent": "SCAN", "slots": [], "source_seed_id": "seed_059", "needs_slot_review": true}
+{"id": "aug_01407", "text": "楼上看看", "intent": "SCAN", "slots": [], "source_seed_id": "seed_065", "needs_slot_review": true}
+{"id": "aug_01408", "text": "喂，看下楼上", "intent": "SCAN", "slots": [], "source_seed_id": "seed_065", "needs_slot_review": true}
+{"id": "aug_01409", "text": "查查楼上", "intent": "SCAN", "slots": [], "source_seed_id": "seed_065", "needs_slot_review": true}
+{"id": "aug_01410", "text": "去楼上瞄一眼", "intent": "SCAN", "slots": [], "source_seed_id": "seed_065", "needs_slot_review": true}
+{"id": "aug_01411", "text": "楼上扫一下", "intent": "SCAN", "slots": [], "source_seed_id": "seed_065", "needs_slot_review": true}
+{"id": "aug_01412", "text": "快看楼上那边", "intent": "SCAN", "slots": [], "source_seed_id": "seed_065", "needs_slot_review": true}
+{"id": "aug_01413", "text": "查一下敌人", "intent": "SCAN", "slots": [], "source_seed_id": "seed_061", "needs_slot_review": true}
+{"id": "aug_01414", "text": "快搜搜敌人", "intent": "SCAN", "slots": [], "source_seed_id": "seed_061", "needs_slot_review": true}
+{"id": "aug_01415", "text": "找找敌人位置", "intent": "SCAN", "slots": [], "source_seed_id": "seed_061", "needs_slot_review": true}
+{"id": "aug_01416", "text": "扫描敌人", "intent": "SCAN", "slots": [], "source_seed_id": "seed_061", "needs_slot_review": true}
+{"id": "aug_01417", "text": "侦查敌情", "intent": "SCAN", "slots": [], "source_seed_id": "seed_061", "needs_slot_review": true}
+{"id": "aug_01418", "text": "看看有没有敌人", "intent": "SCAN", "slots": [], "source_seed_id": "seed_061", "needs_slot_review": true}
+{"id": "aug_01419", "text": "扫一下那片", "intent": "SCAN", "slots": [], "source_seed_id": "seed_059", "needs_slot_review": true}
+{"id": "aug_01420", "text": "区域扫描一下", "intent": "SCAN", "slots": [], "source_seed_id": "seed_059", "needs_slot_review": true}
+{"id": "aug_01421", "text": "把区域探一探", "intent": "SCAN", "slots": [], "source_seed_id": "seed_059", "needs_slot_review": true}
+{"id": "aug_01422", "text": "扫描那片区域", "intent": "SCAN", "slots": [], "source_seed_id": "seed_059", "needs_slot_review": true}
+{"id": "aug_01423", "text": "快扫一下这片", "intent": "SCAN", "slots": [], "source_seed_id": "seed_059", "needs_slot_review": true}
+{"id": "aug_01424", "text": "区域来一发扫描", "intent": "SCAN", "slots": [], "source_seed_id": "seed_059", "needs_slot_review": true}
+{"id": "aug_01425", "text": "前方，侦查一下", "intent": "SCAN", "slots": [], "source_seed_id": "seed_066", "needs_slot_review": true}
+{"id": "aug_01426", "text": "快看前面", "intent": "SCAN", "slots": [], "source_seed_id": "seed_066", "needs_slot_review": true}
+{"id": "aug_01427", "text": "前面扫一眼", "intent": "SCAN", "slots": [], "source_seed_id": "seed_066", "needs_slot_review": true}
+{"id": "aug_01428", "text": "侦测前方区域", "intent": "SCAN", "slots": [], "source_seed_id": "seed_066", "needs_slot_review": true}
+{"id": "aug_01429", "text": "前方，探一探", "intent": "SCAN", "slots": [], "source_seed_id": "seed_066", "needs_slot_review": true}
+{"id": "aug_01430", "text": "侦查前面", "intent": "SCAN", "slots": [], "source_seed_id": "seed_066", "needs_slot_review": true}
+{"id": "aug_01431", "text": "瞅瞅后边", "intent": "SCAN", "slots": [], "source_seed_id": "seed_063", "needs_slot_review": true}
+{"id": "aug_01432", "text": "扫下后面", "intent": "SCAN", "slots": [], "source_seed_id": "seed_063", "needs_slot_review": true}
+{"id": "aug_01433", "text": "看看后方", "intent": "SCAN", "slots": [], "source_seed_id": "seed_063", "needs_slot_review": true}
+{"id": "aug_01434", "text": "后面扫一眼", "intent": "SCAN", "slots": [], "source_seed_id": "seed_063", "needs_slot_review": true}
+{"id": "aug_01435", "text": "喂，看后面", "intent": "SCAN", "slots": [], "source_seed_id": "seed_063", "needs_slot_review": true}
+{"id": "aug_01436", "text": "快瞄后面", "intent": "SCAN", "slots": [], "source_seed_id": "seed_063", "needs_slot_review": true}
+{"id": "aug_01437", "text": "看看左边", "intent": "SCAN", "slots": [], "source_seed_id": "seed_062", "needs_slot_review": true}
+{"id": "aug_01438", "text": "瞅一眼左侧", "intent": "SCAN", "slots": [], "source_seed_id": "seed_062", "needs_slot_review": true}
+{"id": "aug_01439", "text": "左边扫一下", "intent": "SCAN", "slots": [], "source_seed_id": "seed_062", "needs_slot_review": true}
+{"id": "aug_01440", "text": "喂，左边", "intent": "SCAN", "slots": [], "source_seed_id": "seed_062", "needs_slot_review": true}
+{"id": "aug_01441", "text": "快看左面", "intent": "SCAN", "slots": [], "source_seed_id": "seed_062", "needs_slot_review": true}
+{"id": "aug_01442", "text": "左侧侦查下", "intent": "SCAN", "slots": [], "source_seed_id": "seed_062", "needs_slot_review": true}
+{"id": "aug_01443", "text": "前方侦查一下", "intent": "SCAN", "slots": [], "source_seed_id": "seed_066", "needs_slot_review": true}
+{"id": "aug_01444", "text": "喂，看下前面", "intent": "SCAN", "slots": [], "source_seed_id": "seed_066", "needs_slot_review": true}
+{"id": "aug_01445", "text": "快扫前方", "intent": "SCAN", "slots": [], "source_seed_id": "seed_066", "needs_slot_review": true}
+{"id": "aug_01446", "text": "侦查前方区域", "intent": "SCAN", "slots": [], "source_seed_id": "seed_066", "needs_slot_review": true}
+{"id": "aug_01447", "text": "前面探一探", "intent": "SCAN", "slots": [], "source_seed_id": "seed_066", "needs_slot_review": true}
+{"id": "aug_01448", "text": "前方扫一遍", "intent": "SCAN", "slots": [], "source_seed_id": "seed_066", "needs_slot_review": true}
+{"id": "aug_01449", "text": "后面瞅瞅", "intent": "SCAN", "slots": [], "source_seed_id": "seed_063", "needs_slot_review": true}
+{"id": "aug_01450", "text": "瞅下后面", "intent": "SCAN", "slots": [], "source_seed_id": "seed_063", "needs_slot_review": true}
+{"id": "aug_01451", "text": "后面扫一下", "intent": "SCAN", "slots": [], "source_seed_id": "seed_063", "needs_slot_review": true}
+{"id": "aug_01452", "text": "喂后面看看", "intent": "SCAN", "slots": [], "source_seed_id": "seed_063", "needs_slot_review": true}
+{"id": "aug_01453", "text": "快看后面", "intent": "SCAN", "slots": [], "source_seed_id": "seed_063", "needs_slot_review": true}
+{"id": "aug_01454", "text": "快侦察", "intent": "SCAN", "slots": [], "source_seed_id": "seed_058", "needs_slot_review": false}
+{"id": "aug_01455", "text": "去探探", "intent": "SCAN", "slots": [], "source_seed_id": "seed_058", "needs_slot_review": false}
+{"id": "aug_01456", "text": "扫描看看", "intent": "SCAN", "slots": [], "source_seed_id": "seed_058", "needs_slot_review": false}
+{"id": "aug_01457", "text": "侦察一波", "intent": "SCAN", "slots": [], "source_seed_id": "seed_058", "needs_slot_review": false}
+{"id": "aug_01458", "text": "探一下路", "intent": "SCAN", "slots": [], "source_seed_id": "seed_058", "needs_slot_review": false}
+{"id": "aug_01459", "text": "瞅瞅那边", "intent": "SCAN", "slots": [], "source_seed_id": "seed_060", "needs_slot_review": true}
+{"id": "aug_01460", "text": "看一眼那边", "intent": "SCAN", "slots": [], "source_seed_id": "seed_060", "needs_slot_review": true}
+{"id": "aug_01461", "text": "侦查下那个方向", "intent": "SCAN", "slots": [], "source_seed_id": "seed_060", "needs_slot_review": true}
+{"id": "aug_01462", "text": "扫一下那边", "intent": "SCAN", "slots": [], "source_seed_id": "seed_060", "needs_slot_review": true}
+{"id": "aug_01463", "text": "嘿，看那边", "intent": "SCAN", "slots": [], "source_seed_id": "seed_060", "needs_slot_review": true}
+{"id": "aug_01464", "text": "快看那边", "intent": "SCAN", "slots": [], "source_seed_id": "seed_060", "needs_slot_review": true}
+{"id": "aug_01465", "text": "帮我侦查下", "intent": "SCAN", "slots": [], "source_seed_id": "seed_058", "needs_slot_review": false}
+{"id": "aug_01466", "text": "扫一眼那边", "intent": "SCAN", "slots": [], "source_seed_id": "seed_058", "needs_slot_review": false}
+{"id": "aug_01467", "text": "快侦查一下", "intent": "SCAN", "slots": [], "source_seed_id": "seed_058", "needs_slot_review": false}
+{"id": "aug_01468", "text": "诶，侦查侦查", "intent": "SCAN", "slots": [], "source_seed_id": "seed_058", "needs_slot_review": false}
+{"id": "aug_01469", "text": "扫描一下", "intent": "SCAN", "slots": [], "source_seed_id": "seed_058", "needs_slot_review": false}
+{"id": "aug_01470", "text": "侦查一波", "intent": "SCAN", "slots": [], "source_seed_id": "seed_058", "needs_slot_review": false}
+{"id": "aug_01471", "text": "扫描一下这片区域", "intent": "SCAN", "slots": [], "source_seed_id": "seed_059", "needs_slot_review": true}
+{"id": "aug_01472", "text": "诶，扫一遍这区域", "intent": "SCAN", "slots": [], "source_seed_id": "seed_059", "needs_slot_review": true}
+{"id": "aug_01473", "text": "快，侦查这个区域", "intent": "SCAN", "slots": [], "source_seed_id": "seed_059", "needs_slot_review": true}
+{"id": "aug_01474", "text": "快操作终端", "intent": "INTERACT", "slots": [], "source_seed_id": "seed_075", "needs_slot_review": true}
+{"id": "aug_01475", "text": "去弄那个终端", "intent": "INTERACT", "slots": [], "source_seed_id": "seed_075", "needs_slot_review": true}
+{"id": "aug_01476", "text": "终端搞一下", "intent": "INTERACT", "slots": [], "source_seed_id": "seed_075", "needs_slot_review": true}
+{"id": "aug_01477", "text": "喂，终端操作了", "intent": "INTERACT", "slots": [], "source_seed_id": "seed_075", "needs_slot_review": true}
+{"id": "aug_01478", "text": "操作终端啊", "intent": "INTERACT", "slots": [], "source_seed_id": "seed_075", "needs_slot_review": true}
+{"id": "aug_01479", "text": "终端，操作起来", "intent": "INTERACT", "slots": [], "source_seed_id": "seed_075", "needs_slot_review": true}
+{"id": "aug_01480", "text": "快去操作终端", "intent": "INTERACT", "slots": [], "source_seed_id": "seed_075", "needs_slot_review": true}
+{"id": "aug_01481", "text": "把终端弄一下", "intent": "INTERACT", "slots": [], "source_seed_id": "seed_075", "needs_slot_review": true}
+{"id": "aug_01482", "text": "终端，操作一下", "intent": "INTERACT", "slots": [], "source_seed_id": "seed_075", "needs_slot_review": true}
+{"id": "aug_01483", "text": "喂，操作终端", "intent": "INTERACT", "slots": [], "source_seed_id": "seed_075", "needs_slot_review": true}
+{"id": "aug_01484", "text": "终端交给你了", "intent": "INTERACT", "slots": [], "source_seed_id": "seed_075", "needs_slot_review": true}
+{"id": "aug_01485", "text": "快，终端搞一搞", "intent": "INTERACT", "slots": [], "source_seed_id": "seed_075", "needs_slot_review": true}
+{"id": "aug_01486", "text": "破解一下", "intent": "INTERACT", "slots": [], "source_seed_id": "seed_071", "needs_slot_review": true}
+{"id": "aug_01487", "text": "快破解它", "intent": "INTERACT", "slots": [], "source_seed_id": "seed_071", "needs_slot_review": true}
+{"id": "aug_01488", "text": "赶紧破解", "intent": "INTERACT", "slots": [], "source_seed_id": "seed_071", "needs_slot_review": true}
+{"id": "aug_01489", "text": "把它破了", "intent": "INTERACT", "slots": [], "source_seed_id": "seed_071", "needs_slot_review": true}
+{"id": "aug_01490", "text": "喂，破解掉", "intent": "INTERACT", "slots": [], "source_seed_id": "seed_071", "needs_slot_review": true}
+{"id": "aug_01491", "text": "去破解那个", "intent": "INTERACT", "slots": [], "source_seed_id": "seed_071", "needs_slot_review": true}
+{"id": "aug_01492", "text": "快接入电脑", "intent": "INTERACT", "slots": [], "source_seed_id": "seed_076", "needs_slot_review": true}
+{"id": "aug_01493", "text": "连电脑啊", "intent": "INTERACT", "slots": [], "source_seed_id": "seed_076", "needs_slot_review": true}
+{"id": "aug_01494", "text": "接入那台电脑", "intent": "INTERACT", "slots": [], "source_seed_id": "seed_076", "needs_slot_review": true}
+{"id": "aug_01495", "text": "赶紧接电脑", "intent": "INTERACT", "slots": [], "source_seed_id": "seed_076", "needs_slot_review": true}
+{"id": "aug_01496", "text": "喂，接电脑", "intent": "INTERACT", "slots": [], "source_seed_id": "seed_076", "needs_slot_review": true}
+{"id": "aug_01497", "text": "电脑接一下", "intent": "INTERACT", "slots": [], "source_seed_id": "seed_076", "needs_slot_review": true}
+{"id": "aug_01498", "text": "快捡起来", "intent": "INTERACT", "slots": [], "source_seed_id": "seed_073", "needs_slot_review": false}
+{"id": "aug_01499", "text": "诶，捡了", "intent": "INTERACT", "slots": [], "source_seed_id": "seed_073", "needs_slot_review": false}
+{"id": "aug_01500", "text": "捡起它", "intent": "INTERACT", "slots": [], "source_seed_id": "seed_073", "needs_slot_review": false}
+{"id": "aug_01501", "text": "喂，捡啊", "intent": "INTERACT", "slots": [], "source_seed_id": "seed_073", "needs_slot_review": false}
+{"id": "aug_01502", "text": "赶紧捡", "intent": "INTERACT", "slots": [], "source_seed_id": "seed_073", "needs_slot_review": false}
+{"id": "aug_01503", "text": "把它捡上", "intent": "INTERACT", "slots": [], "source_seed_id": "seed_073", "needs_slot_review": false}
+{"id": "aug_01504", "text": "快接电脑", "intent": "INTERACT", "slots": [], "source_seed_id": "seed_076", "needs_slot_review": true}
+{"id": "aug_01505", "text": "喂，接入终端", "intent": "INTERACT", "slots": [], "source_seed_id": "seed_076", "needs_slot_review": true}
+{"id": "aug_01506", "text": "把电脑接上", "intent": "INTERACT", "slots": [], "source_seed_id": "seed_076", "needs_slot_review": true}
+{"id": "aug_01507", "text": "快连电脑", "intent": "INTERACT", "slots": [], "source_seed_id": "seed_076", "needs_slot_review": true}
+{"id": "aug_01508", "text": "接入系统", "intent": "INTERACT", "slots": [], "source_seed_id": "seed_076", "needs_slot_review": true}
+{"id": "aug_01509", "text": "接一下电脑", "intent": "INTERACT", "slots": [], "source_seed_id": "seed_076", "needs_slot_review": true}
+{"id": "aug_01510", "text": "把东西捡了", "intent": "INTERACT", "slots": [], "source_seed_id": "seed_073", "needs_slot_review": false}
+{"id": "aug_01511", "text": "捡走它", "intent": "INTERACT", "slots": [], "source_seed_id": "seed_073", "needs_slot_review": false}
+{"id": "aug_01512", "text": "捡了呀", "intent": "INTERACT", "slots": [], "source_seed_id": "seed_073", "needs_slot_review": false}
+{"id": "aug_01513", "text": "喂，捡一下", "intent": "INTERACT", "slots": [], "source_seed_id": "seed_073", "needs_slot_review": false}
+{"id": "aug_01514", "text": "开那个箱子", "intent": "INTERACT", "slots": [], "source_seed_id": "seed_072", "needs_slot_review": true}
+{"id": "aug_01515", "text": "快把箱子打开", "intent": "INTERACT", "slots": [], "source_seed_id": "seed_072", "needs_slot_review": true}
+{"id": "aug_01516", "text": "喂箱子开了", "intent": "INTERACT", "slots": [], "source_seed_id": "seed_072", "needs_slot_review": true}
+{"id": "aug_01517", "text": "把箱子打开", "intent": "INTERACT", "slots": [], "source_seed_id": "seed_072", "needs_slot_review": true}
+{"id": "aug_01518", "text": "箱子打开一下", "intent": "INTERACT", "slots": [], "source_seed_id": "seed_072", "needs_slot_review": true}
+{"id": "aug_01519", "text": "开下箱子", "intent": "INTERACT", "slots": [], "source_seed_id": "seed_072", "needs_slot_review": true}
+{"id": "aug_01520", "text": "快去开门", "intent": "INTERACT", "slots": [], "source_seed_id": "seed_070", "needs_slot_review": true}
+{"id": "aug_01521", "text": "喂，开门啊", "intent": "INTERACT", "slots": [], "source_seed_id": "seed_070", "needs_slot_review": true}
+{"id": "aug_01522", "text": "开门去", "intent": "INTERACT", "slots": [], "source_seed_id": "seed_070", "needs_slot_review": true}
+{"id": "aug_01523", "text": "把门打开", "intent": "INTERACT", "slots": [], "source_seed_id": "seed_070", "needs_slot_review": true}
+{"id": "aug_01524", "text": "去把门开了", "intent": "INTERACT", "slots": [], "source_seed_id": "seed_070", "needs_slot_review": true}
+{"id": "aug_01525", "text": "开门，快点", "intent": "INTERACT", "slots": [], "source_seed_id": "seed_070", "needs_slot_review": true}
+{"id": "aug_01526", "text": "去拿补给", "intent": "INTERACT", "slots": [], "source_seed_id": "seed_069", "needs_slot_review": true}
+{"id": "aug_01527", "text": "快拿那个补给", "intent": "INTERACT", "slots": [], "source_seed_id": "seed_069", "needs_slot_review": true}
+{"id": "aug_01528", "text": "补给拿上", "intent": "INTERACT", "slots": [], "source_seed_id": "seed_069", "needs_slot_review": true}
+{"id": "aug_01529", "text": "把补给收了", "intent": "INTERACT", "slots": [], "source_seed_id": "seed_069", "needs_slot_review": true}
+{"id": "aug_01530", "text": "拿补给去", "intent": "INTERACT", "slots": [], "source_seed_id": "seed_069", "needs_slot_review": true}
+{"id": "aug_01531", "text": "那个补给捡了", "intent": "INTERACT", "slots": [], "source_seed_id": "seed_069", "needs_slot_review": true}
+{"id": "aug_01532", "text": "喂，终端搞一下", "intent": "INTERACT", "slots": [], "source_seed_id": "seed_075", "needs_slot_review": true}
+{"id": "aug_01533", "text": "去用终端", "intent": "INTERACT", "slots": [], "source_seed_id": "seed_075", "needs_slot_review": true}
+{"id": "aug_01534", "text": "诶，把终端弄了", "intent": "INTERACT", "slots": [], "source_seed_id": "seed_075", "needs_slot_review": true}
+{"id": "aug_01535", "text": "快，终端操作一下", "intent": "INTERACT", "slots": [], "source_seed_id": "seed_075", "needs_slot_review": true}
+{"id": "aug_01536", "text": "快点拿弹药", "intent": "INTERACT", "slots": [], "source_seed_id": "seed_074", "needs_slot_review": true}
+{"id": "aug_01537", "text": "喂，去捡弹药", "intent": "INTERACT", "slots": [], "source_seed_id": "seed_074", "needs_slot_review": true}
+{"id": "aug_01538", "text": "弹药，快拿", "intent": "INTERACT", "slots": [], "source_seed_id": "seed_074", "needs_slot_review": true}
+{"id": "aug_01539", "text": "去取弹药啊", "intent": "INTERACT", "slots": [], "source_seed_id": "seed_074", "needs_slot_review": true}
+{"id": "aug_01540", "text": "弹药，去拿", "intent": "INTERACT", "slots": [], "source_seed_id": "seed_074", "needs_slot_review": true}
+{"id": "aug_01541", "text": "快去拿弹药", "intent": "INTERACT", "slots": [], "source_seed_id": "seed_074", "needs_slot_review": true}
+{"id": "aug_01542", "text": "快开终端", "intent": "INTERACT", "slots": [], "source_seed_id": "seed_068", "needs_slot_review": true}
+{"id": "aug_01543", "text": "把终端激活了", "intent": "INTERACT", "slots": [], "source_seed_id": "seed_068", "needs_slot_review": true}
+{"id": "aug_01544", "text": "终端动一下", "intent": "INTERACT", "slots": [], "source_seed_id": "seed_068", "needs_slot_review": true}
+{"id": "aug_01545", "text": "启动终端", "intent": "INTERACT", "slots": [], "source_seed_id": "seed_068", "needs_slot_review": true}
+{"id": "aug_01546", "text": "终端开一下", "intent": "INTERACT", "slots": [], "source_seed_id": "seed_068", "needs_slot_review": true}
+{"id": "aug_01547", "text": "快开门", "intent": "INTERACT", "slots": [], "source_seed_id": "seed_067", "needs_slot_review": true}
+{"id": "aug_01548", "text": "把那扇门打开", "intent": "INTERACT", "slots": [], "source_seed_id": "seed_067", "needs_slot_review": true}
+{"id": "aug_01549", "text": "喂，开门", "intent": "INTERACT", "slots": [], "source_seed_id": "seed_067", "needs_slot_review": true}
+{"id": "aug_01550", "text": "开一下门", "intent": "INTERACT", "slots": [], "source_seed_id": "seed_067", "needs_slot_review": true}
+{"id": "aug_01551", "text": "门，开了它", "intent": "INTERACT", "slots": [], "source_seed_id": "seed_067", "needs_slot_review": true}
+{"id": "aug_01552", "text": "去开那扇门", "intent": "INTERACT", "slots": [], "source_seed_id": "seed_067", "needs_slot_review": true}
+{"id": "aug_01553", "text": "奶我一口", "intent": "HEAL", "slots": [], "source_seed_id": "seed_079", "needs_slot_review": false}
+{"id": "aug_01554", "text": "快给我治疗", "intent": "HEAL", "slots": [], "source_seed_id": "seed_079", "needs_slot_review": false}
+{"id": "aug_01555", "text": "帮我回血", "intent": "HEAL", "slots": [], "source_seed_id": "seed_079", "needs_slot_review": false}
+{"id": "aug_01556", "text": "喂，治疗一下", "intent": "HEAL", "slots": [], "source_seed_id": "seed_079", "needs_slot_review": false}
+{"id": "aug_01557", "text": "给我用药", "intent": "HEAL", "slots": [], "source_seed_id": "seed_079", "needs_slot_review": false}
+{"id": "aug_01558", "text": "治疗我，快点", "intent": "HEAL", "slots": [], "source_seed_id": "seed_079", "needs_slot_review": false}
+{"id": "aug_01559", "text": "快给我补血", "intent": "HEAL", "slots": [], "source_seed_id": "seed_080", "needs_slot_review": false}
+{"id": "aug_01560", "text": "来点药", "intent": "HEAL", "slots": [], "source_seed_id": "seed_080", "needs_slot_review": false}
+{"id": "aug_01561", "text": "血不够了，给点治疗", "intent": "HEAL", "slots": [], "source_seed_id": "seed_080", "needs_slot_review": false}
+{"id": "aug_01562", "text": "喂，补我血", "intent": "HEAL", "slots": [], "source_seed_id": "seed_080", "needs_slot_review": false}
+{"id": "aug_01563", "text": "中弹了快救我", "intent": "HEAL", "slots": [], "source_seed_id": "seed_088", "needs_slot_review": false}
+{"id": "aug_01564", "text": "我中枪了快给血", "intent": "HEAL", "slots": [], "source_seed_id": "seed_088", "needs_slot_review": false}
+{"id": "aug_01565", "text": "被打中了快治疗", "intent": "HEAL", "slots": [], "source_seed_id": "seed_088", "needs_slot_review": false}
+{"id": "aug_01566", "text": "中弹了给药啊", "intent": "HEAL", "slots": [], "source_seed_id": "seed_088", "needs_slot_review": false}
+{"id": "aug_01567", "text": "我中弹了快补血", "intent": "HEAL", "slots": [], "source_seed_id": "seed_088", "needs_slot_review": false}
+{"id": "aug_01568", "text": "中枪了快来救我", "intent": "HEAL", "slots": [], "source_seed_id": "seed_088", "needs_slot_review": false}
+{"id": "aug_01569", "text": "快给我回血", "intent": "HEAL", "slots": [], "source_seed_id": "seed_080", "needs_slot_review": false}
+{"id": "aug_01570", "text": "我掉血了，奶我", "intent": "HEAL", "slots": [], "source_seed_id": "seed_080", "needs_slot_review": false}
+{"id": "aug_01571", "text": "血不够了，给药", "intent": "HEAL", "slots": [], "source_seed_id": "seed_080", "needs_slot_review": false}
+{"id": "aug_01572", "text": "补点血啊", "intent": "HEAL", "slots": [], "source_seed_id": "seed_080", "needs_slot_review": false}
+{"id": "aug_01573", "text": "血量见底，治疗", "intent": "HEAL", "slots": [], "source_seed_id": "seed_080", "needs_slot_review": false}
+{"id": "aug_01574", "text": "快奶一口", "intent": "HEAL", "slots": [], "source_seed_id": "seed_080", "needs_slot_review": false}
+{"id": "aug_01575", "text": "中弹了，救我", "intent": "HEAL", "slots": [], "source_seed_id": "seed_088", "needs_slot_review": false}
+{"id": "aug_01576", "text": "喂，赶紧奶我", "intent": "HEAL", "slots": [], "source_seed_id": "seed_088", "needs_slot_review": false}
+{"id": "aug_01577", "text": "我中弹了，给药", "intent": "HEAL", "slots": [], "source_seed_id": "seed_088", "needs_slot_review": false}
+{"id": "aug_01578", "text": "快救我一下", "intent": "HEAL", "slots": [], "source_seed_id": "seed_088", "needs_slot_review": false}
+{"id": "aug_01579", "text": "中弹了，血包", "intent": "HEAL", "slots": [], "source_seed_id": "seed_088", "needs_slot_review": false}
+{"id": "aug_01580", "text": "快救我", "intent": "HEAL", "slots": [], "source_seed_id": "seed_084", "needs_slot_review": false}
+{"id": "aug_01581", "text": "给我治疗", "intent": "HEAL", "slots": [], "source_seed_id": "seed_084", "needs_slot_review": false}
+{"id": "aug_01582", "text": "急救包", "intent": "HEAL", "slots": [], "source_seed_id": "seed_084", "needs_slot_review": false}
+{"id": "aug_01583", "text": "快点奶我", "intent": "HEAL", "slots": [], "source_seed_id": "seed_084", "needs_slot_review": false}
+{"id": "aug_01584", "text": "需要治疗", "intent": "HEAL", "slots": [], "source_seed_id": "seed_084", "needs_slot_review": false}
+{"id": "aug_01585", "text": "来口药", "intent": "HEAL", "slots": [], "source_seed_id": "seed_084", "needs_slot_review": false}
+{"id": "aug_01586", "text": "快拉我一下", "intent": "HEAL", "slots": [], "source_seed_id": "seed_087", "needs_slot_review": false}
+{"id": "aug_01587", "text": "拉我起来", "intent": "HEAL", "slots": [], "source_seed_id": "seed_087", "needs_slot_review": false}
+{"id": "aug_01588", "text": "喂，拉我", "intent": "HEAL", "slots": [], "source_seed_id": "seed_087", "needs_slot_review": false}
+{"id": "aug_01589", "text": "拉一把", "intent": "HEAL", "slots": [], "source_seed_id": "seed_087", "needs_slot_review": false}
+{"id": "aug_01590", "text": "赶紧拉我", "intent": "HEAL", "slots": [], "source_seed_id": "seed_087", "needs_slot_review": false}
+{"id": "aug_01591", "text": "拉我呀", "intent": "HEAL", "slots": [], "source_seed_id": "seed_087", "needs_slot_review": false}
+{"id": "aug_01592", "text": "救一下我", "intent": "HEAL", "slots": [], "source_seed_id": "seed_079", "needs_slot_review": false}
+{"id": "aug_01593", "text": "赶紧给药", "intent": "HEAL", "slots": [], "source_seed_id": "seed_079", "needs_slot_review": false}
+{"id": "aug_01594", "text": "快给我药", "intent": "HEAL", "slots": [], "source_seed_id": "seed_084", "needs_slot_review": false}
+{"id": "aug_01595", "text": "急救一下", "intent": "HEAL", "slots": [], "source_seed_id": "seed_084", "needs_slot_review": false}
+{"id": "aug_01596", "text": "来点治疗", "intent": "HEAL", "slots": [], "source_seed_id": "seed_084", "needs_slot_review": false}
+{"id": "aug_01597", "text": "包扎一下", "intent": "HEAL", "slots": [], "source_seed_id": "seed_084", "needs_slot_review": false}
+{"id": "aug_01598", "text": "给我回血", "intent": "HEAL", "slots": [], "source_seed_id": "seed_084", "needs_slot_review": false}
+{"id": "aug_01599", "text": "奶一口", "intent": "HEAL", "slots": [], "source_seed_id": "seed_084", "needs_slot_review": false}
+{"id": "aug_01600", "text": "快治疗", "intent": "HEAL", "slots": [], "source_seed_id": "seed_084", "needs_slot_review": false}
+{"id": "aug_01601", "text": "给我血", "intent": "HEAL", "slots": [], "source_seed_id": "seed_084", "needs_slot_review": false}
+{"id": "aug_01602", "text": "救我一下", "intent": "HEAL", "slots": [], "source_seed_id": "seed_084", "needs_slot_review": false}
+{"id": "aug_01603", "text": "补点血", "intent": "HEAL", "slots": [], "source_seed_id": "seed_084", "needs_slot_review": false}
+{"id": "aug_01604", "text": "医疗兵", "intent": "HEAL", "slots": [], "source_seed_id": "seed_084", "needs_slot_review": false}
+{"id": "aug_01605", "text": "快拉我一把", "intent": "HEAL", "slots": [], "source_seed_id": "seed_087", "needs_slot_review": false}
+{"id": "aug_01606", "text": "拉我一下", "intent": "HEAL", "slots": [], "source_seed_id": "seed_087", "needs_slot_review": false}
+{"id": "aug_01607", "text": "拉一手", "intent": "HEAL", "slots": [], "source_seed_id": "seed_087", "needs_slot_review": false}
+{"id": "aug_01608", "text": "过来拉我", "intent": "HEAL", "slots": [], "source_seed_id": "seed_087", "needs_slot_review": false}
+{"id": "aug_01609", "text": "拉我，快点", "intent": "HEAL", "slots": [], "source_seed_id": "seed_087", "needs_slot_review": false}
+{"id": "aug_01610", "text": "喂，回血", "intent": "HEAL", "slots": [], "source_seed_id": "seed_085", "needs_slot_review": false}
+{"id": "aug_01611", "text": "治疗一下", "intent": "HEAL", "slots": [], "source_seed_id": "seed_085", "needs_slot_review": false}
+{"id": "aug_01612", "text": "加点血", "intent": "HEAL", "slots": [], "source_seed_id": "seed_085", "needs_slot_review": false}
+{"id": "aug_01613", "text": "需要补血", "intent": "HEAL", "slots": [], "source_seed_id": "seed_085", "needs_slot_review": false}
+{"id": "aug_01614", "text": "医疗包给我", "intent": "HEAL", "slots": [], "source_seed_id": "seed_086", "needs_slot_review": true}
+{"id": "aug_01615", "text": "快给我医疗包", "intent": "HEAL", "slots": [], "source_seed_id": "seed_086", "needs_slot_review": true}
+{"id": "aug_01616", "text": "把药递过来", "intent": "HEAL", "slots": [], "source_seed_id": "seed_086", "needs_slot_review": true}
+{"id": "aug_01617", "text": "医疗包扔过来", "intent": "HEAL", "slots": [], "source_seed_id": "seed_086", "needs_slot_review": true}
+{"id": "aug_01618", "text": "给我治疗包", "intent": "HEAL", "slots": [], "source_seed_id": "seed_086", "needs_slot_review": true}
+{"id": "aug_01619", "text": "药包给我", "intent": "HEAL", "slots": [], "source_seed_id": "seed_086", "needs_slot_review": true}
+{"id": "aug_01620", "text": "给个回血", "intent": "HEAL", "slots": [], "source_seed_id": "seed_082", "needs_slot_review": false}
+{"id": "aug_01621", "text": "扔个治疗", "intent": "HEAL", "slots": [], "source_seed_id": "seed_082", "needs_slot_review": false}
+{"id": "aug_01622", "text": "丢点血包", "intent": "HEAL", "slots": [], "source_seed_id": "seed_082", "needs_slot_review": false}
+{"id": "aug_01623", "text": "快回口血", "intent": "HEAL", "slots": [], "source_seed_id": "seed_082", "needs_slot_review": false}
+{"id": "aug_01624", "text": "来个药", "intent": "HEAL", "slots": [], "source_seed_id": "seed_082", "needs_slot_review": false}
+{"id": "aug_01625", "text": "扔个恢复", "intent": "HEAL", "slots": [], "source_seed_id": "seed_082", "needs_slot_review": false}
+{"id": "aug_01626", "text": "医疗包扔我", "intent": "HEAL", "slots": [], "source_seed_id": "seed_086", "needs_slot_review": true}
+{"id": "aug_01627", "text": "给我医疗包", "intent": "HEAL", "slots": [], "source_seed_id": "seed_086", "needs_slot_review": true}
+{"id": "aug_01628", "text": "快，医疗包", "intent": "HEAL", "slots": [], "source_seed_id": "seed_086", "needs_slot_review": true}
+{"id": "aug_01629", "text": "医疗包丢过来", "intent": "HEAL", "slots": [], "source_seed_id": "seed_086", "needs_slot_review": true}
+{"id": "aug_01630", "text": "喂，医疗包", "intent": "HEAL", "slots": [], "source_seed_id": "seed_086", "needs_slot_review": true}
+{"id": "aug_01631", "text": "给药我", "intent": "HEAL", "slots": [], "source_seed_id": "seed_078", "needs_slot_review": false}
+{"id": "aug_01632", "text": "好无聊啊", "intent": "CHITCHAT", "slots": [], "source_seed_id": "seed_099", "needs_slot_review": false}
+{"id": "aug_01633", "text": "没意思死了", "intent": "CHITCHAT", "slots": [], "source_seed_id": "seed_099", "needs_slot_review": false}
+{"id": "aug_01634", "text": "真没劲啊", "intent": "CHITCHAT", "slots": [], "source_seed_id": "seed_099", "needs_slot_review": false}
+{"id": "aug_01635", "text": "困死了都", "intent": "CHITCHAT", "slots": [], "source_seed_id": "seed_099", "needs_slot_review": false}
+{"id": "aug_01636", "text": "闲得发慌", "intent": "CHITCHAT", "slots": [], "source_seed_id": "seed_099", "needs_slot_review": false}
+{"id": "aug_01637", "text": "简直无聊透顶", "intent": "CHITCHAT", "slots": [], "source_seed_id": "seed_099", "needs_slot_review": false}
+{"id": "aug_01638", "text": "喂，你是哪位？", "intent": "CHITCHAT", "slots": [], "source_seed_id": "seed_100", "needs_slot_review": false}
+{"id": "aug_01639", "text": "诶，你是谁啊？", "intent": "CHITCHAT", "slots": [], "source_seed_id": "seed_100", "needs_slot_review": false}
+{"id": "aug_01640", "text": "兄弟，你谁？", "intent": "CHITCHAT", "slots": [], "source_seed_id": "seed_100", "needs_slot_review": false}
+{"id": "aug_01641", "text": "你哪位？", "intent": "CHITCHAT", "slots": [], "source_seed_id": "seed_100", "needs_slot_review": false}
+{"id": "aug_01642", "text": "嘿，报个名儿呗", "intent": "CHITCHAT", "slots": [], "source_seed_id": "seed_100", "needs_slot_review": false}
+{"id": "aug_01643", "text": "你是谁呀？", "intent": "CHITCHAT", "slots": [], "source_seed_id": "seed_100", "needs_slot_review": false}
+{"id": "aug_01644", "text": "你叫啥", "intent": "CHITCHAT", "slots": [], "source_seed_id": "seed_090", "needs_slot_review": false}
+{"id": "aug_01645", "text": "兄弟你叫啥", "intent": "CHITCHAT", "slots": [], "source_seed_id": "seed_090", "needs_slot_review": false}
+{"id": "aug_01646", "text": "喂你叫啥名", "intent": "CHITCHAT", "slots": [], "source_seed_id": "seed_090", "needs_slot_review": false}
+{"id": "aug_01647", "text": "你叫什么名", "intent": "CHITCHAT", "slots": [], "source_seed_id": "seed_090", "needs_slot_review": false}
+{"id": "aug_01648", "text": "给个名字呗", "intent": "CHITCHAT", "slots": [], "source_seed_id": "seed_090", "needs_slot_review": false}
+{"id": "aug_01649", "text": "你咋称呼啊", "intent": "CHITCHAT", "slots": [], "source_seed_id": "seed_090", "needs_slot_review": false}
+{"id": "aug_01650", "text": "无聊到爆", "intent": "CHITCHAT", "slots": [], "source_seed_id": "seed_099", "needs_slot_review": false}
+{"id": "aug_01651", "text": "真没意思", "intent": "CHITCHAT", "slots": [], "source_seed_id": "seed_099", "needs_slot_review": false}
+{"id": "aug_01652", "text": "闷死了都", "intent": "CHITCHAT", "slots": [], "source_seed_id": "seed_099", "needs_slot_review": false}
+{"id": "aug_01653", "text": "你喜欢听啥歌", "intent": "CHITCHAT", "slots": [], "source_seed_id": "seed_097", "needs_slot_review": false}
+{"id": "aug_01654", "text": "爱听什么音乐啊", "intent": "CHITCHAT", "slots": [], "source_seed_id": "seed_097", "needs_slot_review": false}
+{"id": "aug_01655", "text": "平时听啥曲子", "intent": "CHITCHAT", "slots": [], "source_seed_id": "seed_097", "needs_slot_review": false}
+{"id": "aug_01656", "text": "你爱听哪种音乐", "intent": "CHITCHAT", "slots": [], "source_seed_id": "seed_097", "needs_slot_review": false}
+{"id": "aug_01657", "text": "有啥喜欢的歌没", "intent": "CHITCHAT", "slots": [], "source_seed_id": "seed_097", "needs_slot_review": false}
+{"id": "aug_01658", "text": "哥们喜欢啥音乐", "intent": "CHITCHAT", "slots": [], "source_seed_id": "seed_097", "needs_slot_review": false}
+{"id": "aug_01659", "text": "今天天气不错", "intent": "CHITCHAT", "slots": [], "source_seed_id": "seed_093", "needs_slot_review": false}
+{"id": "aug_01660", "text": "天儿真好啊", "intent": "CHITCHAT", "slots": [], "source_seed_id": "seed_093", "needs_slot_review": false}
+{"id": "aug_01661", "text": "这天气真棒", "intent": "CHITCHAT", "slots": [], "source_seed_id": "seed_093", "needs_slot_review": false}
+{"id": "aug_01662", "text": "阳光真好", "intent": "CHITCHAT", "slots": [], "source_seed_id": "seed_093", "needs_slot_review": false}
+{"id": "aug_01663", "text": "好天气啊", "intent": "CHITCHAT", "slots": [], "source_seed_id": "seed_093", "needs_slot_review": false}
+{"id": "aug_01664", "text": "这天气太舒服了", "intent": "CHITCHAT", "slots": [], "source_seed_id": "seed_093", "needs_slot_review": false}
+{"id": "aug_01665", "text": "没意思，真的", "intent": "CHITCHAT", "slots": [], "source_seed_id": "seed_099", "needs_slot_review": false}
+{"id": "aug_01666", "text": "无聊透顶了", "intent": "CHITCHAT", "slots": [], "source_seed_id": "seed_099", "needs_slot_review": false}
+{"id": "aug_01667", "text": "好没劲啊", "intent": "CHITCHAT", "slots": [], "source_seed_id": "seed_099", "needs_slot_review": false}
+{"id": "aug_01668", "text": "简直无聊死了", "intent": "CHITCHAT", "slots": [], "source_seed_id": "seed_099", "needs_slot_review": false}
+{"id": "aug_01669", "text": "讲个笑话呗", "intent": "CHITCHAT", "slots": [], "source_seed_id": "seed_094", "needs_slot_review": false}
+{"id": "aug_01670", "text": "来个笑话", "intent": "CHITCHAT", "slots": [], "source_seed_id": "seed_094", "needs_slot_review": false}
+{"id": "aug_01671", "text": "说个乐子", "intent": "CHITCHAT", "slots": [], "source_seed_id": "seed_094", "needs_slot_review": false}
+{"id": "aug_01672", "text": "讲个段子", "intent": "CHITCHAT", "slots": [], "source_seed_id": "seed_094", "needs_slot_review": false}
+{"id": "aug_01673", "text": "来点好笑的", "intent": "CHITCHAT", "slots": [], "source_seed_id": "seed_094", "needs_slot_review": false}
+{"id": "aug_01674", "text": "快讲个笑话", "intent": "CHITCHAT", "slots": [], "source_seed_id": "seed_094", "needs_slot_review": false}
+{"id": "aug_01675", "text": "你名字是什么", "intent": "CHITCHAT", "slots": [], "source_seed_id": "seed_090", "needs_slot_review": false}
+{"id": "aug_01676", "text": "喂你叫啥", "intent": "CHITCHAT", "slots": [], "source_seed_id": "seed_090", "needs_slot_review": false}
+{"id": "aug_01677", "text": "你咋称呼", "intent": "CHITCHAT", "slots": [], "source_seed_id": "seed_090", "needs_slot_review": false}
+{"id": "aug_01678", "text": "你叫什么来着", "intent": "CHITCHAT", "slots": [], "source_seed_id": "seed_090", "needs_slot_review": false}
+{"id": "aug_01679", "text": "诶你叫啥名", "intent": "CHITCHAT", "slots": [], "source_seed_id": "seed_090", "needs_slot_review": false}
+{"id": "aug_01680", "text": "诶，这天儿真棒", "intent": "CHITCHAT", "slots": [], "source_seed_id": "seed_093", "needs_slot_review": false}
+{"id": "aug_01681", "text": "天气真好啊", "intent": "CHITCHAT", "slots": [], "source_seed_id": "seed_093", "needs_slot_review": false}
+{"id": "aug_01682", "text": "喂，天不错", "intent": "CHITCHAT", "slots": [], "source_seed_id": "seed_093", "needs_slot_review": false}
+{"id": "aug_01683", "text": "这天气真舒服", "intent": "CHITCHAT", "slots": [], "source_seed_id": "seed_093", "needs_slot_review": false}
+{"id": "aug_01684", "text": "今天咋样", "intent": "CHITCHAT", "slots": [], "source_seed_id": "seed_095", "needs_slot_review": false}
+{"id": "aug_01685", "text": "最近如何啊", "intent": "CHITCHAT", "slots": [], "source_seed_id": "seed_095", "needs_slot_review": false}
+{"id": "aug_01686", "text": "嘿，今天好吗", "intent": "CHITCHAT", "slots": [], "source_seed_id": "seed_095", "needs_slot_review": false}
+{"id": "aug_01687", "text": "今儿个怎么样", "intent": "CHITCHAT", "slots": [], "source_seed_id": "seed_095", "needs_slot_review": false}
+{"id": "aug_01688", "text": "今天还好吧", "intent": "CHITCHAT", "slots": [], "source_seed_id": "seed_095", "needs_slot_review": false}
+{"id": "aug_01689", "text": "你今儿咋样", "intent": "CHITCHAT", "slots": [], "source_seed_id": "seed_095", "needs_slot_review": false}
+{"id": "aug_01690", "text": "累了没啊", "intent": "CHITCHAT", "slots": [], "source_seed_id": "seed_091", "needs_slot_review": false}
+{"id": "aug_01691", "text": "是不是累了", "intent": "CHITCHAT", "slots": [], "source_seed_id": "seed_091", "needs_slot_review": false}
+{"id": "aug_01692", "text": "喂，累不累", "intent": "CHITCHAT", "slots": [], "source_seed_id": "seed_091", "needs_slot_review": false}
+{"id": "aug_01693", "text": "诶，累了吗你", "intent": "CHITCHAT", "slots": [], "source_seed_id": "seed_091", "needs_slot_review": false}
+{"id": "aug_01694", "text": "困了吧", "intent": "CHITCHAT", "slots": [], "source_seed_id": "seed_091", "needs_slot_review": false}
+{"id": "aug_01695", "text": "感觉有点累没", "intent": "CHITCHAT", "slots": [], "source_seed_id": "seed_091", "needs_slot_review": false}
+{"id": "aug_01696", "text": "唠会儿嗑呗", "intent": "CHITCHAT", "slots": [], "source_seed_id": "seed_096", "needs_slot_review": false}
+{"id": "aug_01697", "text": "扯扯淡吧", "intent": "CHITCHAT", "slots": [], "source_seed_id": "seed_096", "needs_slot_review": false}
+{"id": "aug_01698", "text": "闲聊几句", "intent": "CHITCHAT", "slots": [], "source_seed_id": "seed_096", "needs_slot_review": false}
+{"id": "aug_01699", "text": "随便说说话", "intent": "CHITCHAT", "slots": [], "source_seed_id": "seed_096", "needs_slot_review": false}
+{"id": "aug_01700", "text": "聊聊天怎么样", "intent": "CHITCHAT", "slots": [], "source_seed_id": "seed_096", "needs_slot_review": false}
+{"id": "aug_01701", "text": "扯会儿闲篇", "intent": "CHITCHAT", "slots": [], "source_seed_id": "seed_096", "needs_slot_review": false}
+{"id": "aug_01702", "text": "你好啊", "intent": "CHITCHAT", "slots": [], "source_seed_id": "seed_089", "needs_slot_review": false}
+{"id": "aug_01703", "text": "嘿，你好", "intent": "CHITCHAT", "slots": [], "source_seed_id": "seed_089", "needs_slot_review": false}
+{"id": "aug_01704", "text": "喂，你好", "intent": "CHITCHAT", "slots": [], "source_seed_id": "seed_089", "needs_slot_review": false}
+{"id": "aug_01705", "text": "你好呀", "intent": "CHITCHAT", "slots": [], "source_seed_id": "seed_089", "needs_slot_review": false}
+{"id": "aug_01706", "text": "嗨，你好", "intent": "CHITCHAT", "slots": [], "source_seed_id": "seed_089", "needs_slot_review": false}
+{"id": "aug_01707", "text": "你好你好", "intent": "CHITCHAT", "slots": [], "source_seed_id": "seed_089", "needs_slot_review": false}
+{"id": "aug_01708", "text": "喂，哪位", "intent": "CHITCHAT", "slots": [], "source_seed_id": "seed_100", "needs_slot_review": false}
+{"id": "aug_01709", "text": "你谁啊", "intent": "CHITCHAT", "slots": [], "source_seed_id": "seed_100", "needs_slot_review": false}

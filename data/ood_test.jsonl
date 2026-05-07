@@ -1,0 +1,45 @@
+{"id": "ood_001", "text": "你跟着我别走丢了", "intent": "FOLLOW", "perturb": "polite_extended"}
+{"id": "ood_002", "text": "黏在我屁股后面", "intent": "FOLLOW", "perturb": "slang"}
+{"id": "ood_003", "text": "保持队形别拉开", "intent": "FOLLOW", "perturb": "tactical_jargon"}
+{"id": "ood_004", "text": "形影不离地跟着我", "intent": "FOLLOW", "perturb": "literary"}
+{"id": "ood_005", "text": "stay close to me", "intent": "FOLLOW", "perturb": "code_switch_en"}
+{"id": "ood_006", "text": "原地待命", "intent": "HOLD_POSITION", "perturb": "military_jargon"}
+{"id": "ood_007", "text": "锁住这里别动", "intent": "HOLD_POSITION", "perturb": "colloquial"}
+{"id": "ood_008", "text": "钉死这个点", "intent": "HOLD_POSITION", "perturb": "slang"}
+{"id": "ood_009", "text": "守好这个掩体不许动", "intent": "HOLD_POSITION", "perturb": "polite_extended"}
+{"id": "ood_010", "text": "stay put right there", "intent": "HOLD_POSITION", "perturb": "code_switch_en"}
+{"id": "ood_011", "text": "干掉那个红色的家伙", "intent": "ATTACK_TARGET", "perturb": "slang"}
+{"id": "ood_012", "text": "把那只机器狗给我撂倒", "intent": "ATTACK_TARGET", "perturb": "polite_extended"}
+{"id": "ood_013", "text": "灭了上面那个", "intent": "ATTACK_TARGET", "perturb": "dialect"}
+{"id": "ood_014", "text": "处理一下右边的敌人", "intent": "ATTACK_TARGET", "perturb": "euphemism"}
+{"id": "ood_015", "text": "shoot them down", "intent": "ATTACK_TARGET", "perturb": "code_switch_en"}
+{"id": "ood_016", "text": "用火力压住那条街", "intent": "SUPPRESS", "perturb": "tactical_jargon"}
+{"id": "ood_017", "text": "对那扇窗持续开火", "intent": "SUPPRESS", "perturb": "tactical_jargon"}
+{"id": "ood_018", "text": "盲射一波那边", "intent": "SUPPRESS", "perturb": "slang"}
+{"id": "ood_019", "text": "封锁那个路口的视野", "intent": "SUPPRESS", "perturb": "tactical_jargon"}
+{"id": "ood_020", "text": "lay down some fire", "intent": "SUPPRESS", "perturb": "code_switch_en"}
+{"id": "ood_021", "text": "撤", "intent": "RETREAT", "perturb": "minimal"}
+{"id": "ood_022", "text": "我们走", "intent": "RETREAT", "perturb": "colloquial"}
+{"id": "ood_023", "text": "脱离接触", "intent": "RETREAT", "perturb": "military_jargon"}
+{"id": "ood_024", "text": "三十六计走为上", "intent": "RETREAT", "perturb": "idiom"}
+{"id": "ood_025", "text": "fall back now", "intent": "RETREAT", "perturb": "code_switch_en"}
+{"id": "ood_026", "text": "看看周围有没有伏击", "intent": "SCAN", "perturb": "polite_extended"}
+{"id": "ood_027", "text": "排查一下这片区域", "intent": "SCAN", "perturb": "jargon"}
+{"id": "ood_028", "text": "扫一扫前面", "intent": "SCAN", "perturb": "colloquial"}
+{"id": "ood_029", "text": "侦察那栋楼", "intent": "SCAN", "perturb": "military_jargon"}
+{"id": "ood_030", "text": "check the perimeter", "intent": "SCAN", "perturb": "code_switch_en"}
+{"id": "ood_031", "text": "把那扇门搞开", "intent": "INTERACT", "perturb": "slang"}
+{"id": "ood_032", "text": "激活那个控制台", "intent": "INTERACT", "perturb": "jargon"}
+{"id": "ood_033", "text": "捡起地上的弹药", "intent": "INTERACT", "perturb": "explicit_object"}
+{"id": "ood_034", "text": "推一下那个机关", "intent": "INTERACT", "perturb": "explicit_object"}
+{"id": "ood_035", "text": "use that terminal", "intent": "INTERACT", "perturb": "code_switch_en"}
+{"id": "ood_036", "text": "我快不行了你救一下", "intent": "HEAL", "perturb": "colloquial"}
+{"id": "ood_037", "text": "状态不太行", "intent": "HEAL", "perturb": "euphemism"}
+{"id": "ood_038", "text": "扎一针给我", "intent": "HEAL", "perturb": "slang"}
+{"id": "ood_039", "text": "需要医疗包", "intent": "HEAL", "perturb": "jargon"}
+{"id": "ood_040", "text": "patch me up", "intent": "HEAL", "perturb": "code_switch_en"}
+{"id": "ood_041", "text": "你今天好骚啊", "intent": "CHITCHAT", "perturb": "slang"}
+{"id": "ood_042", "text": "讲个笑话听听", "intent": "CHITCHAT", "perturb": "casual"}
+{"id": "ood_043", "text": "你叫啥名字来着", "intent": "CHITCHAT", "perturb": "colloquial"}
+{"id": "ood_044", "text": "我无聊死了", "intent": "CHITCHAT", "perturb": "casual"}
+{"id": "ood_045", "text": "how are you doing", "intent": "CHITCHAT", "perturb": "code_switch_en"}
